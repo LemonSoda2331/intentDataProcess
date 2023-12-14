@@ -1,0 +1,5026 @@
+[
+    {
+        "intent": "send_message",
+        "text": "好，你发吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "你发呗"
+    },
+    {
+        "intent": "send_message",
+        "text": "哦，我可以看一下"
+    },
+    {
+        "intent": "send_message",
+        "text": "你发过来之后，我看一下再说吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "你得发过来嘛"
+    },
+    {
+        "intent": "send_message",
+        "text": "啊，你你先发我吧，我等一下看一下"
+    },
+    {
+        "intent": "send_message",
+        "text": "哦，你发过来"
+    },
+    {
+        "intent": "send_message",
+        "text": "你发嘛，发了再说嘛"
+    },
+    {
+        "intent": "send_message",
+        "text": "哦，那你那你这样发过来就可以了哈"
+    },
+    {
+        "intent": "send_message",
+        "text": "什么时候你给我发过来吧，我知道了"
+    },
+    {
+        "intent": "send_message",
+        "text": "嗯，你发过来看看"
+    },
+    {
+        "intent": "send_message",
+        "text": "那你发过来，我看一下"
+    },
+    {
+        "intent": "send_message",
+        "text": "行，你发吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "行行，你发过来吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "那就发吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "那好吧，发给我吧嗯"
+    },
+    {
+        "intent": "send_message",
+        "text": "行，好嘞，我看一下吧。行，好嘞，我先挂了一下啊"
+    },
+    {
+        "intent": "send_message",
+        "text": "你发过来，我看一下"
+    },
+    {
+        "intent": "send_message",
+        "text": "推送一下"
+    },
+    {
+        "intent": "send_message",
+        "text": "嗯，我来看一下啊"
+    },
+    {
+        "intent": "send_message",
+        "text": "给我发一下"
+    },
+    {
+        "intent": "send_message",
+        "text": "行，你发过来看看吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "哦，发发一部片发过来吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "啊，你发给我看看再说吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "嗯，好，你发过来看一下吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "你再发一下，我看我能能能弄吗"
+    },
+    {
+        "intent": "send_message",
+        "text": "好的好的，你发给我信息，我看看好吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "你发过来吧，我自己会看的"
+    },
+    {
+        "intent": "send_message",
+        "text": "嗯，你发过来吧，我有时间"
+    },
+    {
+        "intent": "send_message",
+        "text": "啊，我我我试一下"
+    },
+    {
+        "intent": "send_message",
+        "text": "那行，你发给我吧"
+    },
+    {
+        "intent": "send_message",
+        "text": "可以发过来给我看看吗"
+    },
+    {
+        "intent": "send_message",
+        "text": "啊，你发过来，我有时间我弄"
+    },
+    {
+        "intent": "send_message",
+        "text": "把你发过来，把链接发过来吧，我看一下"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "可以，你加我微信"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "好的好的，那你的微信我怎么加"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "好了你们加我的微信号"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "加下你手机号"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "可以的添加一下我的微信号"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "没问题添加我的微信号码"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "没有问题你们加我的微信号"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "加我的微信号"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "好的好的，那你你那个微信我怎么加"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "好的你们加我的微信"
+    },
+    {
+        "intent": "add_wechat",
+        "text": "好的加一下我的微信"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "加不加钱"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "一个月49是吧"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "扣几块"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "我看我前几天打开看他需要交钱呀，每月的"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "升级多少钱"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "这份保险怎么收费呢"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "方便问下你是哪个保险公司吗"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "请问商品价格是多少"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "就看你天天喊我的保险免费呀"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "钱会不会变"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "不花7万，你不不保不保吗"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "不是扣1块"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "就是说每个月只交一块多"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "多钱"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "次月多少"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "是不是每个月都1块钱"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "不要钱"
+    },
+    {
+        "intent": "ask_fee",
+        "text": "他是因为交钱呢"
+    },
+    {
+        "intent": "insurance_ask_fee",
+        "text": "保费怎么收取"
+    },
+    {
+        "intent": "insurance_ask_fee",
+        "text": "保费报价"
+    },
+    {
+        "intent": "insurance_ask_fee",
+        "text": "保费加不加"
+    },
+    {
+        "intent": "insurance_ask_fee",
+        "text": "保费要不要增加"
+    },
+    {
+        "intent": "insurance_ask_fee",
+        "text": "你这个保险一个月多少钱"
+    },
+    {
+        "intent": "no_impression",
+        "text": "好像没记忆"
+    },
+    {
+        "intent": "no_impression",
+        "text": "完全没接触过"
+    },
+    {
+        "intent": "no_impression",
+        "text": "我一点都没了解过"
+    },
+    {
+        "intent": "no_impression",
+        "text": "好像没有印象"
+    },
+    {
+        "intent": "no_impression",
+        "text": "我完全没记忆"
+    },
+    {
+        "intent": "no_impression",
+        "text": "没接触过"
+    },
+    {
+        "intent": "no_impression",
+        "text": "一点都没印象"
+    },
+    {
+        "intent": "no_impression",
+        "text": "好像不知道"
+    },
+    {
+        "intent": "no_impression",
+        "text": "没印象，我看过了"
+    },
+    {
+        "intent": "no_impression",
+        "text": "完全没了解过"
+    },
+    {
+        "intent": "peer",
+        "text": "咱俩是做货"
+    },
+    {
+        "intent": "peer",
+        "text": "我就搞同行"
+    },
+    {
+        "intent": "peer",
+        "text": "我就放贷款"
+    },
+    {
+        "intent": "peer",
+        "text": "我们就是做电商"
+    },
+    {
+        "intent": "peer",
+        "text": "我也干同行"
+    },
+    {
+        "intent": "peer",
+        "text": "咱俩也是干货"
+    },
+    {
+        "intent": "peer",
+        "text": "我也是卖电商"
+    },
+    {
+        "intent": "peer",
+        "text": "我是卖放贷"
+    },
+    {
+        "intent": "peer",
+        "text": "我也搞电商"
+    },
+    {
+        "intent": "peer",
+        "text": "咱俩是做同行"
+    },
+    {
+        "intent": "have_bought",
+        "text": "已经有"
+    },
+    {
+        "intent": "have_bought",
+        "text": "以前买了"
+    },
+    {
+        "intent": "have_bought",
+        "text": "早投了"
+    },
+    {
+        "intent": "have_bought",
+        "text": "买过了"
+    },
+    {
+        "intent": "have_bought",
+        "text": "之前交了"
+    },
+    {
+        "intent": "have_bought",
+        "text": "下单了"
+    },
+    {
+        "intent": "have_bought",
+        "text": "早投过"
+    },
+    {
+        "intent": "have_bought",
+        "text": "刚刚买过"
+    },
+    {
+        "intent": "have_bought",
+        "text": "之前投过"
+    },
+    {
+        "intent": "have_bought",
+        "text": "已购买"
+    },
+    {
+        "intent": "question_flagged",
+        "text": "好几百标记"
+    },
+    {
+        "intent": "question_flagged",
+        "text": "标记诈骗"
+    },
+    {
+        "intent": "question_flagged",
+        "text": "好多诈骗"
+    },
+    {
+        "intent": "question_flagged",
+        "text": "标记成"
+    },
+    {
+        "intent": "question_flagged",
+        "text": "为什么显示推销"
+    },
+    {
+        "intent": "question_flagged",
+        "text": "标记诈骗电话"
+    },
+    {
+        "intent": "affirm",
+        "text": "有空"
+    },
+    {
+        "intent": "affirm",
+        "text": "好的，知道了，正在扩散"
+    },
+    {
+        "intent": "affirm",
+        "text": "行了，我还有事啊，好"
+    },
+    {
+        "intent": "affirm",
+        "text": "那谢谢啊"
+    },
+    {
+        "intent": "affirm",
+        "text": "那行，我试试"
+    },
+    {
+        "intent": "affirm",
+        "text": "好嘞，谢谢"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，好的"
+    },
+    {
+        "intent": "affirm",
+        "text": "好的好的，等下等一下我"
+    },
+    {
+        "intent": "affirm",
+        "text": "听到声音"
+    },
+    {
+        "intent": "affirm",
+        "text": "您好，我是"
+    },
+    {
+        "intent": "affirm",
+        "text": "能听到"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，好看看"
+    },
+    {
+        "intent": "affirm",
+        "text": "行了，我知道"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，好好"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，好好好"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，到时候看一下好，谢谢"
+    },
+    {
+        "intent": "affirm",
+        "text": "行嘞"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，谢谢，知道了"
+    },
+    {
+        "intent": "affirm",
+        "text": "好嘞好嘞好嘞"
+    },
+    {
+        "intent": "affirm",
+        "text": "好了，行了"
+    },
+    {
+        "intent": "affirm",
+        "text": "好的，行，就这样，再见"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，谢谢啊"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，我知道了，谢谢谢谢，再见"
+    },
+    {
+        "intent": "affirm",
+        "text": "好了"
+    },
+    {
+        "intent": "affirm",
+        "text": "我买保险的"
+    },
+    {
+        "intent": "affirm",
+        "text": "好啊"
+    },
+    {
+        "intent": "affirm",
+        "text": "好，知道了，嗯"
+    },
+    {
+        "intent": "affirm",
+        "text": "我再试试"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，好的好的，嗯"
+    },
+    {
+        "intent": "affirm",
+        "text": "记着呢"
+    },
+    {
+        "intent": "affirm",
+        "text": "行，我再看看"
+    },
+    {
+        "intent": "affirm",
+        "text": "好的"
+    },
+    {
+        "intent": "affirm",
+        "text": "我懂"
+    },
+    {
+        "intent": "affirm",
+        "text": "哦，好好好好"
+    },
+    {
+        "intent": "affirm",
+        "text": "那个就是"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，好的，我看看"
+    },
+    {
+        "intent": "affirm",
+        "text": "好的，知道了"
+    },
+    {
+        "intent": "affirm",
+        "text": "好，谢谢，麻烦了"
+    },
+    {
+        "intent": "affirm",
+        "text": "对对"
+    },
+    {
+        "intent": "affirm",
+        "text": "刚才提交了"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，我也看了一下"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，嗯，可以，好，拜拜"
+    },
+    {
+        "intent": "affirm",
+        "text": "对对对，到时那边"
+    },
+    {
+        "intent": "affirm",
+        "text": "嗯，我正在看"
+    },
+    {
+        "intent": "affirm",
+        "text": "好好"
+    },
+    {
+        "intent": "affirm",
+        "text": "是吧"
+    },
+    {
+        "intent": "affirm",
+        "text": "我领取了"
+    },
+    {
+        "intent": "affirm",
+        "text": "晚上回家弄"
+    },
+    {
+        "intent": "affirm",
+        "text": "好嘞，好好"
+    },
+    {
+        "intent": "affirm",
+        "text": "哦，知道了"
+    },
+    {
+        "intent": "interrupt",
+        "text": "等会"
+    },
+    {
+        "intent": "interrupt",
+        "text": "呃，呃我想问一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "知道，我打断你一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我想问问你，你们为什么要给我的这我这个不是免"
+    },
+    {
+        "intent": "interrupt",
+        "text": "能问一下吗"
+    },
+    {
+        "intent": "interrupt",
+        "text": "哎，我想问一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "你说这么多，你不让我说是吧"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我问一下你啊"
+    },
+    {
+        "intent": "interrupt",
+        "text": "嗯，我还请问一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "你好，等一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我问你，你你回答我"
+    },
+    {
+        "intent": "interrupt",
+        "text": "喂，打断一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "打电话咨询一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "啊，行行，那我先问一下，你先别挂了"
+    },
+    {
+        "intent": "interrupt",
+        "text": "你先听我说"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我问一下我问一下，我是我我是我是谁"
+    },
+    {
+        "intent": "interrupt",
+        "text": "暂停啊"
+    },
+    {
+        "intent": "interrupt",
+        "text": "抱歉，我打断你一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我先问一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "啊，我想问一下啊"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我问一下我问一下可以不"
+    },
+    {
+        "intent": "interrupt",
+        "text": "呃，我问你一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我我想问我想我想问一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我想问一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我我想咨询一下那个"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我问一下这个保的是"
+    },
+    {
+        "intent": "interrupt",
+        "text": "哦，有个问题是这样的"
+    },
+    {
+        "intent": "interrupt",
+        "text": "嗯，行行行，我先问问"
+    },
+    {
+        "intent": "interrupt",
+        "text": "您您先听我说"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我想问你一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "不是我我再想问一下你，你这是按"
+    },
+    {
+        "intent": "interrupt",
+        "text": "嗯，咨询"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我是问你一下啊，问你一下，咨询你一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我在好好跟你说话，你你你"
+    },
+    {
+        "intent": "interrupt",
+        "text": "等一下吗"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我想我想问一问啊"
+    },
+    {
+        "intent": "interrupt",
+        "text": "不让我说话"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我我咨询一下事情"
+    },
+    {
+        "intent": "interrupt",
+        "text": "打断一下，你听我说下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "哎，问一下那个"
+    },
+    {
+        "intent": "interrupt",
+        "text": "有我想问一下，喂"
+    },
+    {
+        "intent": "interrupt",
+        "text": "我喂喂喂，我问一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "你听我讲"
+    },
+    {
+        "intent": "interrupt",
+        "text": "嗯，我想问一下这个呃每个月都是"
+    },
+    {
+        "intent": "interrupt",
+        "text": "嗯，我想问一下你们"
+    },
+    {
+        "intent": "interrupt",
+        "text": "呃，可以吧，我想问一下，就是事实"
+    },
+    {
+        "intent": "interrupt",
+        "text": "请问一下"
+    },
+    {
+        "intent": "interrupt",
+        "text": "等一下啊"
+    },
+    {
+        "intent": "ask_where",
+        "text": "那我没看呢，我怎么点啊"
+    },
+    {
+        "intent": "ask_where",
+        "text": "怎么申请"
+    },
+    {
+        "intent": "ask_where",
+        "text": "在哪里领"
+    },
+    {
+        "intent": "ask_where",
+        "text": "哪领"
+    },
+    {
+        "intent": "ask_where",
+        "text": "怎么添加"
+    },
+    {
+        "intent": "ask_where",
+        "text": "哪有啊"
+    },
+    {
+        "intent": "how_operate",
+        "text": "我不知道操作"
+    },
+    {
+        "intent": "how_operate",
+        "text": "流程步骤"
+    },
+    {
+        "intent": "how_operate",
+        "text": "我不懂，我也不知道，我也不知怎么领，我也不领"
+    },
+    {
+        "intent": "how_operate",
+        "text": "有啊，是不知道怎么搞"
+    },
+    {
+        "intent": "how_operate",
+        "text": "我不会用"
+    },
+    {
+        "intent": "how_operate",
+        "text": "操作啥"
+    },
+    {
+        "intent": "how_operate",
+        "text": "不会，啥也不会，上数成老年呢"
+    },
+    {
+        "intent": "how_operate",
+        "text": "怎么操作的，好"
+    },
+    {
+        "intent": "how_operate",
+        "text": "哎呀，我还不会玩这东西了"
+    },
+    {
+        "intent": "how_operate",
+        "text": "啊，你确认我看我会不会，因为咱不会"
+    },
+    {
+        "intent": "how_operate",
+        "text": "喂，还要操作什么啊"
+    },
+    {
+        "intent": "how_operate",
+        "text": "哎呀，不还要怎么操作啊"
+    },
+    {
+        "intent": "how_operate",
+        "text": "确认升级我不会弄啊"
+    },
+    {
+        "intent": "how_operate",
+        "text": "我不会我不会操作"
+    },
+    {
+        "intent": "how_operate",
+        "text": "嗯，那个你我我不会操作，你就跟我说一下吧。这个意外保险是包括什么"
+    },
+    {
+        "intent": "how_operate",
+        "text": "我还得需要操作是吗"
+    },
+    {
+        "intent": "how_operate",
+        "text": "我不我不会操作呀，我叫我儿子回来操作吧"
+    },
+    {
+        "intent": "how_operate",
+        "text": "听到了，不知道怎么领取啊"
+    },
+    {
+        "intent": "how_operate",
+        "text": "操作还还操作是什么意思"
+    },
+    {
+        "intent": "how_operate",
+        "text": "那我要怎么做"
+    },
+    {
+        "intent": "how_operate",
+        "text": "怎么投保嘞"
+    },
+    {
+        "intent": "how_operate",
+        "text": "还需要操作吗"
+    },
+    {
+        "intent": "how_operate",
+        "text": "怎么还要操作什么啊"
+    },
+    {
+        "intent": "how_operate",
+        "text": "还要操作什么，你他是怎么操作"
+    },
+    {
+        "intent": "how_operate",
+        "text": "啊，我不会，那能不能不操作啊，你自己操作一下行吗"
+    },
+    {
+        "intent": "how_operate",
+        "text": "嗯，可以，我操作不来，嗯，年龄稍微偏大，操作不来了"
+    },
+    {
+        "intent": "how_operate",
+        "text": "不是我那网那个网址不行"
+    },
+    {
+        "intent": "how_operate",
+        "text": "搞啥"
+    },
+    {
+        "intent": "how_operate",
+        "text": "嗯，我看一下怎么怎么弄啊"
+    },
+    {
+        "intent": "how_operate",
+        "text": "哦，怎么怎么写啊"
+    },
+    {
+        "intent": "how_operate",
+        "text": "操作太麻烦了"
+    },
+    {
+        "intent": "how_operate",
+        "text": "你你重新讲一遍，你是要怎么做"
+    },
+    {
+        "intent": "how_operate",
+        "text": "我先操作什么"
+    },
+    {
+        "intent": "how_operate",
+        "text": "嗯，那个我不会操作，算了，我不不买了"
+    },
+    {
+        "intent": "how_operate",
+        "text": "我知道我不会投"
+    },
+    {
+        "intent": "how_operate",
+        "text": "你说怎么需要操作"
+    },
+    {
+        "intent": "how_operate",
+        "text": "我弄不来，不好意思啊"
+    },
+    {
+        "intent": "how_operate",
+        "text": "哎，我就说你教我怎么操作"
+    },
+    {
+        "intent": "how_operate",
+        "text": "怎么领取"
+    },
+    {
+        "intent": "how_operate",
+        "text": "什么流程"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "来源手机"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "怎么会有我手机"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "你怎么知道我的号码"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "为啥有我号码"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "谁告诉你的手机号"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "哪搞的手机号"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "你们咋有我手机号"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "电话怎么知道的"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "号码哪来的"
+    },
+    {
+        "intent": "ask_have_phone",
+        "text": "为啥有我手机"
+    },
+    {
+        "intent": "Company_address",
+        "text": "你们线下店在哪"
+    },
+    {
+        "intent": "Company_address",
+        "text": "怎么走你公司地址"
+    },
+    {
+        "intent": "Company_address",
+        "text": "在哪边公司地址"
+    },
+    {
+        "intent": "Company_address",
+        "text": "你们公司地址怎么过去"
+    },
+    {
+        "intent": "Company_address",
+        "text": "地址叫什么"
+    },
+    {
+        "intent": "Company_address",
+        "text": "怎么去你们公司"
+    },
+    {
+        "intent": "Company_address",
+        "text": "地址在哪边"
+    },
+    {
+        "intent": "Company_address",
+        "text": "我要去你总部"
+    },
+    {
+        "intent": "Company_address",
+        "text": "在哪边你线下店"
+    },
+    {
+        "intent": "Customer_service_name",
+        "text": "哥哥名字"
+    },
+    {
+        "intent": "Customer_service_name",
+        "text": "您贵姓"
+    },
+    {
+        "intent": "Customer_service_name",
+        "text": "您叫啥"
+    },
+    {
+        "intent": "Customer_service_name",
+        "text": "客服名字"
+    },
+    {
+        "intent": "Customer_service_name",
+        "text": "妹妹叫什么"
+    },
+    {
+        "intent": "Customer_service_name",
+        "text": "美女叫什么名字"
+    },
+    {
+        "intent": "Customer_service_name",
+        "text": "小姐姐怎么称呼"
+    },
+    {
+        "intent": "need_consider",
+        "text": "嗯，这样我就试一下，没事"
+    },
+    {
+        "intent": "need_consider",
+        "text": "我先想想"
+    },
+    {
+        "intent": "need_consider",
+        "text": "考虑一下"
+    },
+    {
+        "intent": "need_consider",
+        "text": "得想想"
+    },
+    {
+        "intent": "crank",
+        "text": "我跟你说不要打电话给我，不要你们一直打干嘛，换不同的号码"
+    },
+    {
+        "intent": "crank",
+        "text": "不要给我打电话"
+    },
+    {
+        "intent": "crank",
+        "text": "不要再说了"
+    },
+    {
+        "intent": "crank",
+        "text": "我告诉你，我操你妈的，不要给我打电话了，操你妈这东想骗子你们"
+    },
+    {
+        "intent": "crank",
+        "text": "啊，你们公司一个人联系就行嘛，一早上一早上连接到你们几个电电话了都"
+    },
+    {
+        "intent": "crank",
+        "text": "再打我要投诉了"
+    },
+    {
+        "intent": "crank",
+        "text": "小孩在那拿着手机呢，不要一直打电话了，你妈逼我人家"
+    },
+    {
+        "intent": "complaint",
+        "text": "投诉你老板"
+    },
+    {
+        "intent": "complaint",
+        "text": "起诉你们"
+    },
+    {
+        "intent": "complaint",
+        "text": "公安局举报"
+    },
+    {
+        "intent": "complaint",
+        "text": "举报"
+    },
+    {
+        "intent": "bad_response",
+        "text": "什么？你妈抱的"
+    },
+    {
+        "intent": "bad_response",
+        "text": "我操你妈的"
+    },
+    {
+        "intent": "bad_response",
+        "text": "你你妈的江苏的"
+    },
+    {
+        "intent": "bad_response",
+        "text": "骂他"
+    },
+    {
+        "intent": "bad_response",
+        "text": "我找你妹，我是你爸爸"
+    },
+    {
+        "intent": "bad_response",
+        "text": "放你妈的屁"
+    },
+    {
+        "intent": "bad_response",
+        "text": "你是傻逼吗"
+    },
+    {
+        "intent": "bad_response",
+        "text": "我靠"
+    },
+    {
+        "intent": "bad_response",
+        "text": "你脑子有病吧"
+    },
+    {
+        "intent": "bad_response",
+        "text": "你们别他妈胡说八道"
+    },
+    {
+        "intent": "bad_response",
+        "text": "烦人"
+    },
+    {
+        "intent": "bad_response",
+        "text": "操"
+    },
+    {
+        "intent": "bad_response",
+        "text": "我说你妈卖批"
+    },
+    {
+        "intent": "bad_response",
+        "text": "混蛋听到赶紧挂了"
+    },
+    {
+        "intent": "bad_response",
+        "text": "鸡毛"
+    },
+    {
+        "intent": "bad_response",
+        "text": "滚蛋"
+    },
+    {
+        "intent": "bad_response",
+        "text": "吃屎吧你"
+    },
+    {
+        "intent": "insurance_policy_surrendered",
+        "text": "我已经退保了"
+    },
+    {
+        "intent": "insurance_policy_surrendered",
+        "text": "我退了退出了"
+    },
+    {
+        "intent": "insurance_policy_surrendered",
+        "text": "我知道啊，我刚刚已经退了呀，我看了很多评价，都说"
+    },
+    {
+        "intent": "insurance_policy_surrendered",
+        "text": "已经退保"
+    },
+    {
+        "intent": "insurance_policy_surrendered",
+        "text": "网上退保"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我我现在要申请退保"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "能不能给我退一下保费"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "啊，有我刚退保，我知道"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "哎呀，我我小孩按错了，我想取消，怎么取消啊"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我退掉"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "哎，我不要了，谢谢啊，我不要了，我就随便保保，你就给我取消掉好了"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "呃，我昨天中午申请把它退了"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我如果说不要我，我他们按错了，就是按了按了，如果说要退，怎么怎么怎么退"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "你不是叫昨天晚上叫你们给我取消了吗"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "哎呀，我想取消一个就是取消不了，我还挺找你们的"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我想问一下，我怎么能退回来"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我取消的"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我有印象啊，这个我我我现在不想投，我想把它退了"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我没有，那我想想问你哈，我那个取消一份可以吗"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我这个是昨天小孩弄的，小孩用我手机弄的，这个能退掉吗"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我我早上钱又给他退掉了"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "不要了不要了，我退了嘛，我不是退订了嘛"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "我我把它退了，把它把它退了"
+    },
+    {
+        "intent": "insurance_cancel",
+        "text": "昨天晚上投的好像被我取消了"
+    },
+    {
+        "intent": "refuse",
+        "text": "啊，不是暂时不申请"
+    },
+    {
+        "intent": "refuse",
+        "text": "不要"
+    },
+    {
+        "intent": "refuse",
+        "text": "你自己多保一下啊"
+    },
+    {
+        "intent": "refuse",
+        "text": "跟你说了不需要"
+    },
+    {
+        "intent": "refuse",
+        "text": "不好"
+    },
+    {
+        "intent": "refuse",
+        "text": "啊，这个不需要了，他说"
+    },
+    {
+        "intent": "refuse",
+        "text": "嗯，不需要"
+    },
+    {
+        "intent": "refuse",
+        "text": "没有"
+    },
+    {
+        "intent": "refuse",
+        "text": "好好好啊，听着好，知道了知道了再说吧，好嘞"
+    },
+    {
+        "intent": "refuse",
+        "text": "我不买"
+    },
+    {
+        "intent": "refuse",
+        "text": "我暂时不需要"
+    },
+    {
+        "intent": "refuse",
+        "text": "不需要，我不办保险我也不领"
+    },
+    {
+        "intent": "refuse",
+        "text": "不想买"
+    },
+    {
+        "intent": "refuse",
+        "text": "不要不要啊"
+    },
+    {
+        "intent": "refuse",
+        "text": "那不需要了，不需要，那个不需要了"
+    },
+    {
+        "intent": "refuse",
+        "text": "不去"
+    },
+    {
+        "intent": "refuse",
+        "text": "嗯，暂时没有"
+    },
+    {
+        "intent": "refuse",
+        "text": "不考虑"
+    },
+    {
+        "intent": "refuse",
+        "text": "不，不要不要"
+    },
+    {
+        "intent": "refuse",
+        "text": "我不领取，我不领取"
+    },
+    {
+        "intent": "refuse",
+        "text": "不是我弄的，我不知道的"
+    },
+    {
+        "intent": "refuse",
+        "text": "听不到我说不卖"
+    },
+    {
+        "intent": "refuse",
+        "text": "我不想知道"
+    },
+    {
+        "intent": "refuse",
+        "text": "那就算了，那那不是买的"
+    },
+    {
+        "intent": "refuse",
+        "text": "嗯，还没有"
+    },
+    {
+        "intent": "refuse",
+        "text": "嗯，不需要不需要"
+    },
+    {
+        "intent": "refuse",
+        "text": "现在还用不了"
+    },
+    {
+        "intent": "refuse",
+        "text": "不需要"
+    },
+    {
+        "intent": "refuse",
+        "text": "不要不要不要，谢谢不要啊"
+    },
+    {
+        "intent": "refuse",
+        "text": "你也不好啊"
+    },
+    {
+        "intent": "refuse",
+        "text": "不用了，不用了"
+    },
+    {
+        "intent": "refuse",
+        "text": "不要不要不要不"
+    },
+    {
+        "intent": "refuse",
+        "text": "哦，我不需要"
+    },
+    {
+        "intent": "refuse",
+        "text": "不用，谢谢，谢谢"
+    },
+    {
+        "intent": "refuse",
+        "text": "拒绝，否认"
+    },
+    {
+        "intent": "refuse",
+        "text": "没有没有没有"
+    },
+    {
+        "intent": "refuse",
+        "text": "我弄不成还不成"
+    },
+    {
+        "intent": "refuse",
+        "text": "不要不要"
+    },
+    {
+        "intent": "way_to_pay",
+        "text": "按年付款"
+    },
+    {
+        "intent": "way_to_pay",
+        "text": "可以分期"
+    },
+    {
+        "intent": "way_to_pay",
+        "text": "先用后付"
+    },
+    {
+        "intent": "way_to_pay",
+        "text": "蚂蚁支付"
+    },
+    {
+        "intent": "normal_response",
+        "text": "正常应答"
+    },
+    {
+        "intent": "normal_response",
+        "text": "哎呀，又"
+    },
+    {
+        "intent": "normal_response",
+        "text": "阿"
+    },
+    {
+        "intent": "normal_response",
+        "text": "啊，那"
+    },
+    {
+        "intent": "normal_response",
+        "text": "噢"
+    },
+    {
+        "intent": "normal_response",
+        "text": "嗯呢"
+    },
+    {
+        "intent": "normal_response",
+        "text": "Oh"
+    },
+    {
+        "intent": "normal_response",
+        "text": "嗯呀"
+    },
+    {
+        "intent": "normal_response",
+        "text": "这样吗"
+    },
+    {
+        "intent": "normal_response",
+        "text": "哦，太呀"
+    },
+    {
+        "intent": "normal_response",
+        "text": "哦，哦哦哦哦"
+    },
+    {
+        "intent": "normal_response",
+        "text": "呃，你"
+    },
+    {
+        "intent": "normal_response",
+        "text": "哈喽哈"
+    },
+    {
+        "intent": "normal_response",
+        "text": "哦呦"
+    },
+    {
+        "intent": "normal_response",
+        "text": "不客气"
+    },
+    {
+        "intent": "normal_response",
+        "text": "哦哦"
+    },
+    {
+        "intent": "ask_next",
+        "text": "怎么"
+    },
+    {
+        "intent": "ask_next",
+        "text": "你先介绍一下，我再决定加不加微信"
+    },
+    {
+        "intent": "ask_next",
+        "text": "你赶紧说"
+    },
+    {
+        "intent": "ask_next",
+        "text": "说话"
+    },
+    {
+        "intent": "ask_next",
+        "text": "怎么回事啊"
+    },
+    {
+        "intent": "ask_next",
+        "text": "为什么"
+    },
+    {
+        "intent": "ask_next",
+        "text": "怎么不回答我"
+    },
+    {
+        "intent": "ask_next",
+        "text": "等你介绍"
+    },
+    {
+        "intent": "client_busy",
+        "text": "呃，等一下吧"
+    },
+    {
+        "intent": "client_busy",
+        "text": "嗯，晚一会儿吧"
+    },
+    {
+        "intent": "client_busy",
+        "text": "忙着了"
+    },
+    {
+        "intent": "client_busy",
+        "text": "有时间再买"
+    },
+    {
+        "intent": "client_busy",
+        "text": "我现在在外面出警听到吗"
+    },
+    {
+        "intent": "client_busy",
+        "text": "我在忙着"
+    },
+    {
+        "intent": "client_busy",
+        "text": "我现在忙呢"
+    },
+    {
+        "intent": "client_busy",
+        "text": "正在忙"
+    },
+    {
+        "intent": "client_busy",
+        "text": "没时间"
+    },
+    {
+        "intent": "client_busy",
+        "text": "嗯，稍等一下啊，谢谢"
+    },
+    {
+        "intent": "client_busy",
+        "text": "哦，我还要等会儿，我现在还没还没回去呢"
+    },
+    {
+        "intent": "client_busy",
+        "text": "现在没时间"
+    },
+    {
+        "intent": "client_busy",
+        "text": "晚点打不好意思啊，我手机有问题"
+    },
+    {
+        "intent": "client_busy",
+        "text": "啊，没有没有时间嗯嗯"
+    },
+    {
+        "intent": "client_busy",
+        "text": "这会有事，不方便接听，请稍等"
+    },
+    {
+        "intent": "client_busy",
+        "text": "今天加班了"
+    },
+    {
+        "intent": "client_busy",
+        "text": "我等一下啊"
+    },
+    {
+        "intent": "client_busy",
+        "text": "行，我等一下弄一下"
+    },
+    {
+        "intent": "client_busy",
+        "text": "等一下去"
+    },
+    {
+        "intent": "client_busy",
+        "text": "真没时间"
+    },
+    {
+        "intent": "client_busy",
+        "text": "正在忙啊"
+    },
+    {
+        "intent": "client_busy",
+        "text": "你要等会"
+    },
+    {
+        "intent": "client_busy",
+        "text": "啊，等一会过去"
+    },
+    {
+        "intent": "client_busy",
+        "text": "正忙着"
+    },
+    {
+        "intent": "client_busy",
+        "text": "我现在有点忙"
+    },
+    {
+        "intent": "client_busy",
+        "text": "中午可以吗"
+    },
+    {
+        "intent": "client_busy",
+        "text": "谢谢，我们最近有点忙，没空啊"
+    },
+    {
+        "intent": "client_busy",
+        "text": "我开车"
+    },
+    {
+        "intent": "client_busy",
+        "text": "我在忙"
+    },
+    {
+        "intent": "client_busy",
+        "text": "啊，稍等一下"
+    },
+    {
+        "intent": "client_busy",
+        "text": "嗯，等一下，稍等"
+    },
+    {
+        "intent": "client_busy",
+        "text": "你要不我还问着要不那个晚点打过来"
+    },
+    {
+        "intent": "client_busy",
+        "text": "我现在有事情"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "用什么联系你们"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "那问一下那个客服电话是多少，922多少"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "嗯，我关键是说到时候你就打电话9522是吧"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "是我我正好问题，我没找您那个电话"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "怎么联系你们"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "官方电话"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "那刚才你说拨打那个电话，那个电话应该是我记不着在哪个地方找啊"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "那不是咋咋咋能找上你你你们这个地方呢"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "这个怎么联系呢？假如真的有什么意外的话"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "我们去找谁呢"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "我到时候怎么联系你呢"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "我知道啊，你那个众安保险那个客服服务电电话多少"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "公司400电话是多少"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "那知道了，我我还要跟谁跟谁联系呢"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "这个是我知道你如果是怎么联系你们客服啊"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "我我还是不懂这个，就是比方说到时候怎么联系呢"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "嗯，他那个是我，那那怎么联系你们呢，怎么办呢？这手续我刚才没听清"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "你在哪里你哪个哪个地方，我也没有没有我联系"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "我打您的电话，可能我都没有"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "嗯，那咋联系你们呀，20号"
+    },
+    {
+        "intent": "Official_phone",
+        "text": "跟你们跟医院有联系的吗"
+    },
+    {
+        "intent": "Official_account",
+        "text": "微信公众号是啥"
+    },
+    {
+        "intent": "Official_account",
+        "text": "关注一下公众号"
+    },
+    {
+        "intent": "Official_account",
+        "text": "能关注公众号"
+    },
+    {
+        "intent": "Official_account",
+        "text": "关注一下你微信公众号"
+    },
+    {
+        "intent": "Official_account",
+        "text": "怎么关注你们公众号"
+    },
+    {
+        "intent": "Official_account",
+        "text": "你公众号能关注"
+    },
+    {
+        "intent": "Official_account",
+        "text": "什么公众号"
+    },
+    {
+        "intent": "Official_account",
+        "text": "能关注你微信公众号"
+    },
+    {
+        "intent": "Official_account",
+        "text": "什么微信公众号"
+    },
+    {
+        "intent": "Official_account",
+        "text": "关注一下你们公众号"
+    },
+    {
+        "intent": "Question_professionalism",
+        "text": "来个专业点的"
+    },
+    {
+        "intent": "Question_professionalism",
+        "text": "你不懂"
+    },
+    {
+        "intent": "Question_professionalism",
+        "text": "你专不专业"
+    },
+    {
+        "intent": "Question_professionalism",
+        "text": "你刚来的"
+    },
+    {
+        "intent": "Question_professionalism",
+        "text": "培训结束了么"
+    },
+    {
+        "intent": "after_sale_issues",
+        "text": "有售后吗"
+    },
+    {
+        "intent": "after_sale_issues",
+        "text": "有售后问题怎么处理"
+    },
+    {
+        "intent": "after_sale_issues",
+        "text": "问题怎么解决"
+    },
+    {
+        "intent": "after_sale_issues",
+        "text": "售后问题怎么联系"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "手机不能用"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "没电了"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "我充电口损坏"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "手机有问题"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "我充电口故障"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "手机点不了"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "老年机坏了"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "充电口故障"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "手机搞不了"
+    },
+    {
+        "intent": "phone_malfunction",
+        "text": "智能机不能用"
+    },
+    {
+        "intent": "operate_fail",
+        "text": "啊，我的电话好像点不开那个链接，那链接都点不开"
+    },
+    {
+        "intent": "operate_fail",
+        "text": "操作就错"
+    },
+    {
+        "intent": "operate_fail",
+        "text": "操作有问题"
+    },
+    {
+        "intent": "operate_fail",
+        "text": "我买了，失败了"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "咋没收到过短信"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "发送失败"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "为什么收不到短信"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "干嘛消息没收到"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "我短信接不了"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "收不到短信怎么办"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "你们短信有问题"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "短信没有收到"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "我消息没有"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "我怎么没有收到消息"
+    },
+    {
+        "intent": "no_receive_message",
+        "text": "为什么没有短信"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "最近找我打过"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "已经和我推销过"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "前两天找过我"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "之前给我推销过"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "已经联系过"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "之前推销过"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "之前弄过"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "刚刚不是有人联系了吗"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "前两天跟我打过"
+    },
+    {
+        "intent": "Already_contacted",
+        "text": "已经找过我"
+    },
+    {
+        "intent": "why_wechat",
+        "text": "加微信有什么好处"
+    },
+    {
+        "intent": "why_wechat",
+        "text": "不加微信不行吗"
+    },
+    {
+        "intent": "why_wechat",
+        "text": "咋加微信"
+    },
+    {
+        "intent": "why_wechat",
+        "text": "不加微信"
+    },
+    {
+        "intent": "no_money",
+        "text": "我也没钱"
+    },
+    {
+        "intent": "no_money",
+        "text": "预算不足"
+    },
+    {
+        "intent": "no_money",
+        "text": "没钱"
+    },
+    {
+        "intent": "no_money",
+        "text": "那你来钱交保险了，没有钱交保险"
+    },
+    {
+        "intent": "video_stuttering",
+        "text": "画面卡死了"
+    },
+    {
+        "intent": "video_stuttering",
+        "text": "太卡了"
+    },
+    {
+        "intent": "video_stuttering",
+        "text": "怎么黑屏了"
+    },
+    {
+        "intent": "video_stuttering",
+        "text": "卡了"
+    },
+    {
+        "intent": "high_price",
+        "text": "太贵了"
+    },
+    {
+        "intent": "high_price",
+        "text": "便宜点就好了"
+    },
+    {
+        "intent": "high_price",
+        "text": "便宜一点"
+    },
+    {
+        "intent": "high_price",
+        "text": "产品太贵了"
+    },
+    {
+        "intent": "no_interest",
+        "text": "我我爸我投错了"
+    },
+    {
+        "intent": "no_interest",
+        "text": "没兴趣"
+    },
+    {
+        "intent": "no_interest",
+        "text": "都看了，在抖音都看了，就是我现在"
+    },
+    {
+        "intent": "no_interest",
+        "text": "不用，我随便听，点开看了看，我就点一下"
+    },
+    {
+        "intent": "no_interest",
+        "text": "哦，我不懂，我我这我这点进去，我乱点"
+    },
+    {
+        "intent": "no_interest",
+        "text": "我没兴趣"
+    },
+    {
+        "intent": "no_interest",
+        "text": "嗯，好的，我以为是开那个，我就随便我说试一下的心态"
+    },
+    {
+        "intent": "no_interest",
+        "text": "哦，我可能弄错了"
+    },
+    {
+        "intent": "no_interest",
+        "text": "我这个是我是不是投错了，投保险"
+    },
+    {
+        "intent": "no_interest",
+        "text": "嗯，我明白，我跟你说，我都是点的点错了"
+    },
+    {
+        "intent": "no_interest",
+        "text": "这些我只是投资好玩的"
+    },
+    {
+        "intent": "no_interest",
+        "text": "哦，我我我我没搞过，我就看"
+    },
+    {
+        "intent": "no_interest",
+        "text": "啊，我我我们没什么跟我搞的好玩的"
+    },
+    {
+        "intent": "no_interest",
+        "text": "你给我算了算了，我重重新来给我看，重新给我讲，给我弄开"
+    },
+    {
+        "intent": "no_interest",
+        "text": "啊，我我我没有，我别的不懂，我只是看到，然后我随便就就就交进去了"
+    },
+    {
+        "intent": "no_interest",
+        "text": "那个在哪呀，我都没注意，我在抖音上面看到了，然后我就随便点了一下"
+    },
+    {
+        "intent": "no_interest",
+        "text": "啊，你我随便点一点，那可能"
+    },
+    {
+        "intent": "no_interest",
+        "text": "我也没瞅啊，我就搁这嘎坐着，我搁那看。快手里边，他们投保，我就跟你点一下"
+    },
+    {
+        "intent": "no_interest",
+        "text": "那个我没注意呢"
+    },
+    {
+        "intent": "no_interest",
+        "text": "啊，我这我这我一看手机随便的搞一下"
+    },
+    {
+        "intent": "no_interest",
+        "text": "我转接的时候按错了"
+    },
+    {
+        "intent": "no_interest",
+        "text": "没有，我是随便按一下"
+    },
+    {
+        "intent": "no_interest",
+        "text": "我看看吧，我再看看，我没注意那些"
+    },
+    {
+        "intent": "no_interest",
+        "text": "这我也就是好玩，试试看这个你看那评论上面"
+    },
+    {
+        "intent": "no_interest",
+        "text": "你说好像现在我按错了，谢谢啊"
+    },
+    {
+        "intent": "no_interest",
+        "text": "哎，我我跟你说，我刚才点错了"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "手机号是以前的"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "电话号码不是业主"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "会不会找错手机"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "会不会找错"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "有没有弄错人号码"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "不是我家"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "会不会搞错电话号码"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "手机以前有人用过"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "刚换手机"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "电话不是我"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "会不会号码找错"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "是不是电话找错人"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "刚买来手机号"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "等会就转达给他"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "换了手机号"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "手机号不是当事人"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "电话号码不是学员"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "不是她"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "手机新的"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "刚换号码"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "手机不是他"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "会不会搞错手机号"
+    },
+    {
+        "intent": "wrong_person",
+        "text": "电话号码不是我"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "我这个怎怎么报怎么报报理赔呀"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "上哪报销啊，找时间有病了"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "那我现在家人住院了，我怎么去申请理赔呀"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "他赔钱是怎么个赔法"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "你好，我想问一下我这个理赔"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "我知道了，我问一下咱咱这个理赔的话是怎么理赔的这通过"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "怎么出险"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "呃，就是我以后想，比如说生病了，想要理赔的话，我怎么找你们呢"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "这个要怎么理赔呀"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "我申请理赔啊"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "然后他就出来这个无忧综合意外险，点击这个申请理赔呀"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "轮胎，然后有一条报了，然后他说让直接打这个电话理赔"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "好吧，嗯哎那我这个以后如果万一有这种情况，我怎么去投，怎么去向你这理赔啊这个"
+    },
+    {
+        "intent": "insurance_settle_claim",
+        "text": "理赔咋搞"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "那个重疾绿色通道是什么服务啊"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "这个重疾险里都包括哪些疾病呢"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "小病有什么"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "眼睛也看呃看的也不清楚，就是问一下那个呃这呃保的是是多少种那个疾病的"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "大病有什么"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "能保头疼脑热"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "头疼脑热能保"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "小病能报"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "癌症能保"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "癌症能报"
+    },
+    {
+        "intent": "insurance_coverage",
+        "text": "六万八保些什么呀"
+    },
+    {
+        "intent": "insurance_zgl",
+        "text": "代言人给你们带货"
+    },
+    {
+        "intent": "insurance_zgl",
+        "text": "张国立接待我"
+    },
+    {
+        "intent": "insurance_zgl",
+        "text": "你们的代言人跟我联系"
+    },
+    {
+        "intent": "insurance_zgl",
+        "text": "张国立"
+    },
+    {
+        "intent": "insurance_zgl",
+        "text": "你们的代言人也买了吗"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "我以前是600万"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "我之前搞过600万"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "我原来是600万"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "早就升级好了"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "我早就升级了"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "之前升级过"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "已升级了"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "早升级"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "我以前是升级保障"
+    },
+    {
+        "intent": "insurance_upgrade_already",
+        "text": "刚刚升级"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "全都赔钱"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "是不是全部报销"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "有没有全能赔"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "有没有免赔额"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "有没有都能报销"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "都能报销"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "全部赔钱"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "不是我你我问他别的就是这咱们这个的，我想给我家爱人给孩子投保险，你这个免赔额多少啊？最低的从开始多少开始呢"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "免赔额是什么东西我都看不懂，我怎么操作呢"
+    },
+    {
+        "intent": "insurance_deductible",
+        "text": "花多少全部赔钱"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "我在哪升级"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "确认保单升级"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "保单升级"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "我没操作升级保险吗"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "我升级"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "在哪升级"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "我没确认升级保险吗"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "勾选升级了吗"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "我怎么操作升级"
+    },
+    {
+        "intent": "insurance_upgrade_required",
+        "text": "我想保险升级"
+    },
+    {
+        "intent": "insurance_benefit_insured",
+        "text": "好的，那保险的额度是多少"
+    },
+    {
+        "intent": "insurance_benefit_insured",
+        "text": "嗯，我我不申请那个升级，就这你这个保额是多少"
+    },
+    {
+        "intent": "insurance_benefit_insured",
+        "text": "哦，你买这个保费变不变"
+    },
+    {
+        "intent": "insurance_benefit_insured",
+        "text": "嗯，你的保费就是升级到13要60，有有毛病能报多少啊"
+    },
+    {
+        "intent": "insurance_benefit_insured",
+        "text": "小病能保吗"
+    },
+    {
+        "intent": "insurance_benefit_insured",
+        "text": "什么病都能保吗"
+    },
+    {
+        "intent": "insurance_benefit_insured",
+        "text": "我就问一下，我现在投的这个保险，我目前投的这个金额能赔多少，就是赔付的时候是怎么个赔付法"
+    },
+    {
+        "intent": "insurance_benefit_insured",
+        "text": "赔多少钱"
+    },
+    {
+        "intent": "insurance_benefit_insured",
+        "text": "癌症能报吗"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我体检检查出过乳腺结节，做过手术"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "呃，不是的，我我看了一下他那个投保，就是说什么，第一第一点就是什么住院了。但是我是我是因为"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我明白，就是说我想问一下，就是说确诊有病的能不能投"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "不是是这样的，我这个前五年做了个手术，已今年已经五年了。我这种可以可以买这个保险吗"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我之前有查出息肉"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我明白，但是我现在刚刚咨询了一下那个说那个呃有那个乳腺增生三级是可以投保，是吗"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我有原位癌做了手术"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我有病啊，我有高血压，能能能看到，不能啊"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我之前有过风湿性心脏病"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "普通人得了癌症"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "啊，不是我你我现在不符合条件呢"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "不是我我我有高血压的，应该投保不了的"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "没有，我看我那个不在范围之内呀，我有现在有糖尿病啊"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我妇科体检查出有卵巢囊肿"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "合吧，因为我前五年做了个手术"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "脑溢血能参加"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "不是的，我以前的有那个病。嗯，你们那个报销上面都已经清楚写了"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我有心律失常可以投保吗"
+    },
+    {
+        "intent": "insurance_disease_limitation",
+        "text": "我有心肌病要紧吗"
+    },
+    {
+        "intent": "insurance_claim_difficult",
+        "text": "到账等待很久"
+    },
+    {
+        "intent": "insurance_claim_difficult",
+        "text": "到账第二天"
+    },
+    {
+        "intent": "insurance_claim_difficult",
+        "text": "理赔要等很久"
+    },
+    {
+        "intent": "insurance_claim_difficult",
+        "text": "多久能到账"
+    },
+    {
+        "intent": "insurance_claim_difficult",
+        "text": "理赔难"
+    },
+    {
+        "intent": "insurance_claim_difficult",
+        "text": "几时到账"
+    },
+    {
+        "intent": "insurance_claim_difficult",
+        "text": "到账审核方便吗"
+    },
+    {
+        "intent": "insurance_claim_difficult",
+        "text": "当天到账"
+    },
+    {
+        "intent": "insurance_claim_difficult",
+        "text": "赔付几时"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "保单到期接着续保"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "接着续保"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "保单到期后"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "理赔过不可以投保"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "理赔过到期投保"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "理赔过还能再保"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "到期接着续保"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "理赔过拒绝再保"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "理赔过再次续保"
+    },
+    {
+        "intent": "insurance_whether_renew",
+        "text": "续保"
+    },
+    {
+        "intent": "insurance_duration_converage",
+        "text": "保障永久有效"
+    },
+    {
+        "intent": "insurance_duration_converage",
+        "text": "保单一直有效"
+    },
+    {
+        "intent": "insurance_duration_converage",
+        "text": "能保一直保障"
+    },
+    {
+        "intent": "insurance_duration_converage",
+        "text": "保障多久"
+    },
+    {
+        "intent": "insurance_duration_converage",
+        "text": "保单一年"
+    },
+    {
+        "intent": "insurance_duration_converage",
+        "text": "能保期限"
+    },
+    {
+        "intent": "insurance_duration_converage",
+        "text": "保障的时间"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "可以多少次理赔"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "最多可以几次报销"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "可以报销好几次"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "最多可以赔好几次"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "最多报销反复"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "最多能赔付几次"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "几次赔付"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "可以多次赔付"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "最多好几次理赔"
+    },
+    {
+        "intent": "insurance_number_clause",
+        "text": "最多可以赔付反复"
+    },
+    {
+        "intent": "insurance_when_effect",
+        "text": "即时生效"
+    },
+    {
+        "intent": "insurance_when_effect",
+        "text": "几时生效"
+    },
+    {
+        "intent": "insurance_when_effect",
+        "text": "多久生效"
+    },
+    {
+        "intent": "insurance_when_effect",
+        "text": "多少天生效"
+    },
+    {
+        "intent": "insurance_when_effect",
+        "text": "投保就生效"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "最多可以买几个人"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "最多买几份"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "给我爸买"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "能买几份"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "最多可以买几份"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "能买多张"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "最多可以买"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "最多可以买多张"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "最多能买"
+    },
+    {
+        "intent": "insurance_buy_to_whom",
+        "text": "给妈妈买"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "刚出生能投保"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "孩子刚出生能投保"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "60岁能投"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "多大岁数可以投保"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "多大岁数可以投"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "年纪大可以投"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "退休职工可以投保"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "什么年龄能买"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "太小了能投"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "什么年龄可以投保"
+    },
+    {
+        "intent": "insurance_age_restrict",
+        "text": "多大能投"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "我之前交过重疾险"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "之前买了众安保险"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "我已经买了众安保险"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "有保险"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "我都有公费医疗"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "早就交了其他保险"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "已经买了住院保险"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "是那个不是住院保险不是投过了吗"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "以前有住院保险"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "我原来交了保险"
+    },
+    {
+        "intent": "insurance_insured_already",
+        "text": "早有其他保险"
+    },
+    {
+        "intent": "insurance_automatic_pay",
+        "text": "按时交钱"
+    },
+    {
+        "intent": "insurance_automatic_pay",
+        "text": "你给我扣费"
+    },
+    {
+        "intent": "insurance_automatic_pay",
+        "text": "按时付钱"
+    },
+    {
+        "intent": "insurance_automatic_pay",
+        "text": "你给我付费"
+    },
+    {
+        "intent": "insurance_automatic_pay",
+        "text": "你们自己扣费"
+    },
+    {
+        "intent": "insurance_automatic_pay",
+        "text": "自动交钱"
+    },
+    {
+        "intent": "insurance_automatic_pay",
+        "text": "你给我缴费"
+    },
+    {
+        "intent": "insurance_automatic_pay",
+        "text": "自己交钱"
+    },
+    {
+        "intent": "insurance_social_agricultural",
+        "text": "交了农保"
+    },
+    {
+        "intent": "insurance_social_agricultural",
+        "text": "社保交了"
+    },
+    {
+        "intent": "insurance_social_agricultural",
+        "text": "农保买了"
+    },
+    {
+        "intent": "insurance_social_agricultural",
+        "text": "我交了社保"
+    },
+    {
+        "intent": "insurance_social_agricultural",
+        "text": "交了社保"
+    },
+    {
+        "intent": "insurance_social_agricultural",
+        "text": "买过社保"
+    },
+    {
+        "intent": "insurance_no_insured",
+        "text": "没交这个保险"
+    },
+    {
+        "intent": "insurance_no_insured",
+        "text": "没有农保"
+    },
+    {
+        "intent": "insurance_no_insured",
+        "text": "没这个保险"
+    },
+    {
+        "intent": "insurance_no_insured",
+        "text": "没有社保"
+    },
+    {
+        "intent": "insurance_no_insured",
+        "text": "没有社保农保"
+    },
+    {
+        "intent": "insurance_interview",
+        "text": "能不能真人办理"
+    },
+    {
+        "intent": "insurance_interview",
+        "text": "面签"
+    },
+    {
+        "intent": "insurance_interview",
+        "text": "到店办理"
+    },
+    {
+        "intent": "insurance_interview",
+        "text": "你在哪里呀"
+    },
+    {
+        "intent": "insurance_interview",
+        "text": "可以业务员当面办理"
+    },
+    {
+        "intent": "insurance_interview",
+        "text": "到你们店里办理"
+    },
+    {
+        "intent": "insurance_interview",
+        "text": "销售员办理"
+    },
+    {
+        "intent": "insurance_interview",
+        "text": "现场办理"
+    },
+    {
+        "intent": "insurance_interview",
+        "text": "能销售员办理"
+    },
+    {
+        "intent": "insurance_not_tell",
+        "text": "别跟妈妈说"
+    },
+    {
+        "intent": "insurance_not_tell",
+        "text": "别跟小孩说"
+    },
+    {
+        "intent": "insurance_not_tell",
+        "text": "能不告诉老人吗"
+    },
+    {
+        "intent": "insurance_not_tell",
+        "text": "别跟老公说"
+    },
+    {
+        "intent": "insurance_not_tell",
+        "text": "不想让宝宝知道"
+    },
+    {
+        "intent": "insurance_not_tell",
+        "text": "能不告诉老公"
+    },
+    {
+        "intent": "insurance_not_tell",
+        "text": "能不告诉我妈吗"
+    },
+    {
+        "intent": "insurance_not_tell",
+        "text": "能不告诉老公吗"
+    },
+    {
+        "intent": "insurance_not_tell",
+        "text": "能不告诉妈妈"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "有没有住院保险"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "详细介绍一下保险的类型"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "看不到怎么怎么操作，看保单呢"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "介绍一下众安保险的类型"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "有没有重疾险"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "想了解一下住院保险"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "都有什么保险"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "详细介绍下重疾险的类型"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "其他的意外险"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "换一种众安保险的类型"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "介绍保险"
+    },
+    {
+        "intent": "insurance_ask_other",
+        "text": "介绍公费医疗"
+    },
+    {
+        "intent": "insurance_paper_policy",
+        "text": "保单是纸质的"
+    },
+    {
+        "intent": "insurance_paper_policy",
+        "text": "有没有纸质保单"
+    },
+    {
+        "intent": "insurance_paper_policy",
+        "text": "提供电子的保单"
+    },
+    {
+        "intent": "insurance_insured_arrived",
+        "text": "钱打到银行卡"
+    },
+    {
+        "intent": "insurance_insured_arrived",
+        "text": "什么时候到账"
+    },
+    {
+        "intent": "insurance_insured_arrived",
+        "text": "钱打到哪里"
+    },
+    {
+        "intent": "insurance_insured_arrived",
+        "text": "保额到账"
+    },
+    {
+        "intent": "insurance_insured_arrived",
+        "text": "打到银行卡上"
+    },
+    {
+        "intent": "insurance_insured_arrived",
+        "text": "啥时候到账"
+    },
+    {
+        "intent": "insurance_participated_already",
+        "text": "昨天不是领了吗"
+    },
+    {
+        "intent": "insurance_participated_already",
+        "text": "早就买过了"
+    },
+    {
+        "intent": "insurance_participated_already",
+        "text": "我已经买了"
+    },
+    {
+        "intent": "insurance_participated_already",
+        "text": "买了众安保险"
+    },
+    {
+        "intent": "insurance_low_insured",
+        "text": "少了一些"
+    },
+    {
+        "intent": "insurance_low_insured",
+        "text": "600万不够"
+    },
+    {
+        "intent": "insurance_low_insured",
+        "text": "保额不够"
+    },
+    {
+        "intent": "insurance_low_insured",
+        "text": "太少了"
+    },
+    {
+        "intent": "insurance_age_notmatch",
+        "text": "我80了还帮我"
+    },
+    {
+        "intent": "insurance_age_notmatch",
+        "text": "我听到我操作过了，我年龄过了没用"
+    },
+    {
+        "intent": "insurance_age_notmatch",
+        "text": "我71了"
+    },
+    {
+        "intent": "insurance_age_notmatch",
+        "text": "我83了"
+    },
+    {
+        "intent": "insurance_age_notmatch",
+        "text": "年纪太大"
+    },
+    {
+        "intent": "insurance_age_notmatch",
+        "text": "我77了"
+    },
+    {
+        "intent": "insurance_disease_refusal",
+        "text": "有癌症，不能投保"
+    },
+    {
+        "intent": "insurance_disease_refusal",
+        "text": "投保不成功"
+    },
+    {
+        "intent": "insurance_disease_refusal",
+        "text": "不用了，我那我做过手术呢，做了上不投，投不了拉倒吧，不不投了"
+    },
+    {
+        "intent": "insurance_disease_refusal",
+        "text": "有恶性肿瘤"
+    },
+    {
+        "intent": "insurance_disease_refusal",
+        "text": "有病买不了"
+    },
+    {
+        "intent": "insurance_disease_refusal",
+        "text": "不要我"
+    },
+    {
+        "intent": "insurance_disease_refusal",
+        "text": "想买买不了"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "等于是这个不升级没用的是吧"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "我我可不可以不升级啊"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "嗯，什么什么升值"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "为什么还要这样操作"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "干嘛要点链接啊"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "你们不是说一元投600吗？这个怎么又又要升级呢"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "那那个起什么作用的"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "啊，那你有什么作用啊"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "不升级可以吗"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "批改升级的意思是什么呢"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "那领导不要要升级了吗？又要升级600块的吗，已经"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "不用了，就这样行了，不要加钱啊。我等明天用"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "得升级是吗"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "不是，我问一下，为什么从7就是说从7万降到1万是什么意思"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "升级权益是啥意思？我刚才看到短信了，我没不知道那啥意思"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "他为什么要收升级别，不用升级可以吗"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "那升级不用升级吗"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "那个啥呀，升级那个"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "有什么作用"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "不不升级不可以吗？都投保不成是不是"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "点击这个干嘛用呢"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "点点它干嘛呀"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "嗯，什么待升级"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "还要升级啊"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "升级区别"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "嗯，升级有什么用呢"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "你是要升级吗"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "什么升值啊"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "怎么还在升级"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "嗯，操作是啥，升级呗"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "还要升级呀"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "以后再升级不行吗"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "为啥要升级啊"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "还得链接，投保完不就完了吗"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "呃，升级干嘛呢"
+    },
+    {
+        "intent": "insurance_upgrade_difference",
+        "text": "哦，啥意思？是那个再增加那个啥呀，我没明白"
+    },
+    {
+        "intent": "not_understand",
+        "text": "听不懂你说的什么话"
+    },
+    {
+        "intent": "not_understand",
+        "text": "什么意思哦"
+    },
+    {
+        "intent": "not_understand",
+        "text": "你说的是啥意思啊"
+    },
+    {
+        "intent": "not_understand",
+        "text": "不是不是嗯，好嗯嗯我没有听懂你的意思"
+    },
+    {
+        "intent": "not_understand",
+        "text": "我我不清楚你这个说法"
+    },
+    {
+        "intent": "not_understand",
+        "text": "你说你啥意思"
+    },
+    {
+        "intent": "not_understand",
+        "text": "我申请是什么意思"
+    },
+    {
+        "intent": "not_understand",
+        "text": "请问你是啥意思啊"
+    },
+    {
+        "intent": "not_understand",
+        "text": "啊，什么事什么意思啊"
+    },
+    {
+        "intent": "not_understand",
+        "text": "我是那你说一下吧"
+    },
+    {
+        "intent": "not_understand",
+        "text": "我也不懂你啥事了，啥也不懂得"
+    },
+    {
+        "intent": "not_understand",
+        "text": "请再说一遍"
+    },
+    {
+        "intent": "not_understand",
+        "text": "嗯，你什么意思？你你的意思是"
+    },
+    {
+        "intent": "not_understand",
+        "text": "你你你说的什么玩意，我都没听明白什么意思啊"
+    },
+    {
+        "intent": "not_understand",
+        "text": "抱歉，您说的话，我不是很明白，您可以简单说下吗"
+    },
+    {
+        "intent": "not_understand",
+        "text": "哎呀，我这个保险是俺家媳妇给我交的，你说的啥我也听不懂啊"
+    },
+    {
+        "intent": "not_understand",
+        "text": "没听明白"
+    },
+    {
+        "intent": "not_understand",
+        "text": "啊，你的意思是那个还要"
+    },
+    {
+        "intent": "not_understand",
+        "text": "我没明白"
+    },
+    {
+        "intent": "not_understand",
+        "text": "我说我听不明白你说啥意思，那不就是投投保到现在是成功，没成功咋又要升级是咋回事"
+    },
+    {
+        "intent": "not_understand",
+        "text": "嗯，什么意思？你那个链接里面是什么东西啊"
+    },
+    {
+        "intent": "not_understand",
+        "text": "嗯，什么意思啊"
+    },
+    {
+        "intent": "not_understand",
+        "text": "嗯嗯好嘛，那那是是那么个意思"
+    },
+    {
+        "intent": "not_understand",
+        "text": "我没有听懂"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "你再说一遍，我刚才听不清楚啊"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "哦，我这个这个地方信号不大好"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "哎呀，你说的我不懂"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "不好意思，我这边没有听到你的声音，有什么事情你可以稍后再联系，那先这样，拜拜"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "什么你说什么没听清楚啊，这儿弄"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "你重新说一下，说的什么意思，没听清楚"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "听不到，谢谢"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "嗯，有点小，大声一点嘛"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "嗯，他那个点那个什么声音"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "哦，我刚才刚才还没听清楚。嗯，好的"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "我听不到了"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "嗯嗯，没听清楚什么意思呢"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "没听清再说一遍"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "嗯，好好好听，不清楚啊"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "是你讲什么啊，没听清楚这一句"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "听不到你说的啥子"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "信号不好信号不好，听不懂"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "你说什么呀，没听清楚啊"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "我都没听清楚"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "哦，不不是很清楚啊"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "你说什么呢？我没听清楚"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "不好意思，刚刚没听清"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "后面这里没听清楚"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "你刚才我还没听清楚，你重新说一遍"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "哦，你说啥，我这听不清楚，你说啥"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "没听见他是不是还有"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "听不到嗯"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "很小声"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "你能不能重复一下，刚才我没听清楚"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "什么东西升级，你刚才说的内容我没有听清"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "我咨询一下我我我我我我没听明白"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "没有一点声音"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "我现在可能声音调不清楚"
+    },
+    {
+        "intent": "need_repeat",
+        "text": "你你是不是听不到啊听不到"
+    },
+    {
+        "intent": "ask_who",
+        "text": "哦，你说怎么了"
+    },
+    {
+        "intent": "ask_who",
+        "text": "哦，哦怎么说"
+    },
+    {
+        "intent": "ask_who",
+        "text": "嗯，听得到怎么有事吗"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你好，你有什么事"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你哪个啊"
+    },
+    {
+        "intent": "ask_who",
+        "text": "听到了什么事"
+    },
+    {
+        "intent": "ask_who",
+        "text": "那怎么讲"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你好，你是"
+    },
+    {
+        "intent": "ask_who",
+        "text": "那你是"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你找谁了"
+    },
+    {
+        "intent": "ask_who",
+        "text": "怎么说"
+    },
+    {
+        "intent": "ask_who",
+        "text": "先跟你说一下，你是哪家保险公司的"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你是谁呀你是谁呀"
+    },
+    {
+        "intent": "ask_who",
+        "text": "哎，你怎么"
+    },
+    {
+        "intent": "ask_who",
+        "text": "什么事"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你这是哪儿啊"
+    },
+    {
+        "intent": "ask_who",
+        "text": "能听到你有什么事"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你们是哪儿啊"
+    },
+    {
+        "intent": "ask_who",
+        "text": "查谁"
+    },
+    {
+        "intent": "ask_who",
+        "text": "那个您是哪儿啊"
+    },
+    {
+        "intent": "ask_who",
+        "text": "怎么说呢"
+    },
+    {
+        "intent": "ask_who",
+        "text": "哦，那怎么点呢"
+    },
+    {
+        "intent": "ask_who",
+        "text": "我认识你吗"
+    },
+    {
+        "intent": "ask_who",
+        "text": "嗯，您说怎么了"
+    },
+    {
+        "intent": "ask_who",
+        "text": "啊，啥意思？你哪里"
+    },
+    {
+        "intent": "ask_who",
+        "text": "听到啥啥事啊"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你们是什么机构"
+    },
+    {
+        "intent": "ask_who",
+        "text": "怎么搞，你跟我说"
+    },
+    {
+        "intent": "ask_who",
+        "text": "什么人啊"
+    },
+    {
+        "intent": "ask_who",
+        "text": "哪个"
+    },
+    {
+        "intent": "ask_who",
+        "text": "先跟你确认一下，你是哪家保险公司的"
+    },
+    {
+        "intent": "ask_who",
+        "text": "听得到啥子事"
+    },
+    {
+        "intent": "ask_who",
+        "text": "嗯，说吧怎么了"
+    },
+    {
+        "intent": "ask_who",
+        "text": "谁呀，啥"
+    },
+    {
+        "intent": "ask_who",
+        "text": "啊，说啥事咋的了"
+    },
+    {
+        "intent": "ask_who",
+        "text": "嗯嗯怎么说"
+    },
+    {
+        "intent": "ask_who",
+        "text": "听到了怎么了，请说"
+    },
+    {
+        "intent": "ask_who",
+        "text": "嗯，有啥事吗"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你好，你哪儿"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你干嘛呢？你说"
+    },
+    {
+        "intent": "ask_who",
+        "text": "哪的呀"
+    },
+    {
+        "intent": "ask_who",
+        "text": "先跟你确认下你是哪家保险公司的"
+    },
+    {
+        "intent": "ask_who",
+        "text": "做什么"
+    },
+    {
+        "intent": "ask_who",
+        "text": "嗯，你说怎么"
+    },
+    {
+        "intent": "ask_who",
+        "text": "听到你是哪儿的"
+    },
+    {
+        "intent": "ask_who",
+        "text": "对，怎么的"
+    },
+    {
+        "intent": "ask_who",
+        "text": "啊，是的，哪位"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你是谁的"
+    },
+    {
+        "intent": "ask_who",
+        "text": "能听到了说什么事"
+    },
+    {
+        "intent": "ask_who",
+        "text": "你是众安保险呀"
+    },
+    {
+        "intent": "ask_who",
+        "text": "那在哪里能看见，我不知道在哪里呀"
+    },
+    {
+        "intent": "ask_who",
+        "text": "嗯，还有还有干什么吧"
+    },
+    {
+        "intent": "ask_who",
+        "text": "哎，什么意思啊？什么申请啊"
+    },
+    {
+        "intent": "ask_who",
+        "text": "麻烦你再详细介绍一下保险项目吧"
+    },
+    {
+        "intent": "ask_who",
+        "text": "谁呀"
+    },
+    {
+        "intent": "ask_who",
+        "text": "不是金融客服的吗"
+    },
+    {
+        "intent": "ask_who",
+        "text": "怎么没写"
+    },
+    {
+        "intent": "ask_who",
+        "text": "还什么"
+    },
+    {
+        "intent": "ask_who",
+        "text": "领什么玩意儿，领红包啊"
+    },
+    {
+        "intent": "ask_who",
+        "text": "哎，请问你是哪家保险公司的"
+    },
+    {
+        "intent": "ask_who",
+        "text": "啊，怎么的"
+    },
+    {
+        "intent": "ask_who",
+        "text": "什么东西"
+    },
+    {
+        "intent": "ask_who",
+        "text": "请问有什么事"
+    },
+    {
+        "intent": "ask_who",
+        "text": "嗯嗯，是怎么了"
+    },
+    {
+        "intent": "ask_who",
+        "text": "干嘛？谢谢"
+    },
+    {
+        "intent": "ask_who",
+        "text": "哦，哦是，那怎么了"
+    },
+    {
+        "intent": "ask_who",
+        "text": "嗯嗯，干啥嘞"
+    },
+    {
+        "intent": "ask_who",
+        "text": "请问是哪个快递公司呢"
+    },
+    {
+        "intent": "chitchat",
+        "text": "您能陪我聊天吗"
+    },
+    {
+        "intent": "chitchat",
+        "text": "有没有美女"
+    },
+    {
+        "intent": "chitchat",
+        "text": "他要去那个"
+    },
+    {
+        "intent": "chitchat",
+        "text": "但是"
+    },
+    {
+        "intent": "chitchat",
+        "text": "就我打"
+    },
+    {
+        "intent": "chitchat",
+        "text": "保护财产安全"
+    },
+    {
+        "intent": "ask_event",
+        "text": "最近有促销吗"
+    },
+    {
+        "intent": "ask_event",
+        "text": "有活动吗"
+    },
+    {
+        "intent": "ask_event",
+        "text": "什么活动"
+    },
+    {
+        "intent": "ask_event",
+        "text": "有没有优惠"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "你是人工啊还是机器呀"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "你这是啥人工吗"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "你是不是机器人呀"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "你是你这是真人还是录音呢"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "你要说吧，你也是机器人哦"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "呃，你你是那个人工服务吗"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "你是不是机器人还是真人"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "你是人不是人"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "哦，机器人的你是机"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "说话你这这这这你转人工"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "嗯，我想要人工"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "你是人工啊，你还是还是电脑啊"
+    },
+    {
+        "intent": "ask_robot",
+        "text": "不是人工是吧"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "听到听不到"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "你听得到吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "你好，请问你还在吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "我我说哎我我说了，你能听到吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "你听得到吗？我问你每个月是不是"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "有有有，但是你能听到我说吗？你听得见吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "听得到是吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "喂，还听吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "喂，听得到吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "你又不睬我了"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "喂，你好，能听得到吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "啊，听到了啊，你听不到啊"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "喂，您好，您听得到吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "你你听到我讲话吗？听到我讲话吗"
+    },
+    {
+        "intent": "ask_listen",
+        "text": "还在吗？听不到你"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你听我讲，你这是真的是假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "真的有这么好啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这骗人的不搞了，好吧，听懂了吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哦，有有这这个对我我我充了。对，这个是真的还是假的，我就说"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "没有嘛，是真是假嘛"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这个是不是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这个是真的吗？假的呀，我搞不清楚了"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "是真的吧，你们那个"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这是真的吗？这个保险"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你们你们是不是忽悠的是真实的，是不是忽悠的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "真的是假的，也是做，我也不知道啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "不用，我告诉你这个东西是骗人的。我问的我朋友我朋友是做保险的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这这这咋回事，你不是你不是诈骗吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你们不是有点那个虚假的吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我想问一下，是不是真的哟"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这个是真的假的呀，咱也不知道啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这个也不要，是不是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "那真的假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这个是是不是真的保险还是假的保险"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "没意见，我昨天昨天弄的，我也不记得是不是假的，还真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "他是真的是假的，我我好玩投的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这是真的吗？假的哦"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你们这个是不是假的嘞"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这个是真的假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "对对对对对，这是骗人的还是假的呀，还是真的还是假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这是真的假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哎，他们这家都是假的，都是骗人的。首先我就没没有搞了"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哦，你那是骗人的，你那是"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我知道啊这个可靠不"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这个保险这是不是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "啊，是是是这个是不是真的呀，我又投了一下，我也不知道"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哎，我都不想投了，这个是个骗人的。我看东西上写什么都是骗人的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我知道我这不不知道我这个你这个是是不是真的还是假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "那就是骗人的，又是不是"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你是骗人的，我按进去的30块钱一个月，你骗人的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "啊，对呀，你们这个是真的还是假的呀"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "有啊，我刚我刚普通完了是真的是假的那个"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我觉得你这个我我就有点怀疑这个东西，到时候真的来来什么病痛真的能赔吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这个呃是真实的，不是"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我我也想找一下，也也不知道是不是真的骗骗人的。我也"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，我本来是想支付，然后我又放弃了，我怕我有点这真的假的就好了"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我们以前偷那个呃水滴筹吧，那个那种保险"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "等一下是不是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "对，这个你你你对我诈骗的都不敢给"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "是真的假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "啊，我也知不道真的假的，就这个我没敢那啥"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，真的假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "有刚才投的，我就是说不知道是真的假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "所以你到时候是骗子"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "呃，他这个保险是真的吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "明白，我不明白，因为我点的时候都没有显示什么升级什么。你现在来给我升级，我也不知道你是谁，是不是你所谓的链接，我都不知道有没有问题"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "不是，我想问一下子，你这是正规客服，正规保险吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "啊，是啊，我刚才投了是真的假的这个"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你们那个是不是又让又让什么涛什么钱啊，我感觉像骗子一样。我他说是一元，但是我支付的都是1.2块多，然后都是一会又让你买，这一会又让你弹出来个乐，又让你买那"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我怕被骗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，我怕你们这是假的，我不弄了"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你是缅甸的吧"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，有，我也是检测，看这谁的是真的是假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "点击上去那个不敢点击你现在那个诈骗的那么多"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这个是真的假的呀"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我问这个保险是真是假，能不能能不能投"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我都不知道你到底是不是众安保险的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哎呀，我我没交那个呢，我看不懂你们这个，我怕骗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，嗯，真的是假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，我现在不需要，我是随便在那里点一下，我不知道你这个是真的还是假的啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我昨天支付了这个东西，你们这个是真的还是假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这个保险真的假的呀"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "他现在这个骗子很多啊，不敢弄他这个是真的是假的。他这个保险"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "有是有的，我不知道是真的还是假的嘞"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "套路你们这个"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哦，我现在没空啊，等一会我去支付吧，这个不是骗人的吧，我怕骗人的，我就没点进去了"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我感觉我那个那个保险，你们这个保险好像要套路的啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我感觉你们都是骗子嘛，没敢理"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "啊，不需要我看很多评论，人家都说是骗人的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "那个一块钱就能买那么多保险，是不是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "那个是不是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "什么证据权益啊，这个是真还是假的啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我说我在抖音上看见这个真的是假的啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "没没事没事没事，我不会在你发的这个链接上面修改任何东西，也不是我对你的不信任"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "因为我就害怕受骗。对呀嗯"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "那个是不是真的嘞"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "对呀，我我都在犹豫是真的假的呀"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，我怕不安全"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哎，我们不用支付了，我刚才点着玩，那看是真的假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "那个真的用的上吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我老公说不要了，怕骗人了，不要了"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哎呀，对对对，我是刚刚投保的，我还以为是假的。哎呀，真是的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "真的假的也不敢相信"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这个是不是真的呀"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我看到要扫二维码，我怕他上当，我就没有支付了"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "那那那那那就不行，你们这儿不属于电信诈骗吧"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "有啊，今天刚查的，我就看我现在有不知道是不是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "啊，这个这是真是假的，不知道啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我付款，但是你们骗人的哥啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这个我我就是怕是不是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这个是不是真的哦，真你妈假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "呃，有啊，这个是真的还是假的哦"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "算了算了，我不要了不要了，你这这这是纯粹是骗人的，一块钱又变成两块多，两块多。就你说按年龄段算，那我们就按年龄段算算，我们也能理解"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "对呀，那个只是搞好玩的，不知道真的假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "算了，你们这个都是有套路的，我不需要"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "啊，就是个假"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我靠，那个诈骗的是吧"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "不是你这个玩意是真的吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我不不升级了，就这样吧，被骗了"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "是诈骗电话呀"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这些不能不能点这些骗人的太多了，不敢点哈"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "不支付不行吗？我就看一下是不是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这个是真的还是假的嘞，我现在怕上当受骗哎"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "不用了，我被骗了的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，那点进去安全吗？那个链接"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你是缅北诈骗嘎腰子的吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，你这个都是骗人的，哪里有一个月110块1块到第二个月都不止这个价了嘛"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "有我昨天投的，然后他们说好多人都说是假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哦，是真的吗呀"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，我也不知道是真的还是假的试试看呢"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你们那我跟你讲了，不要这样，总是骗人的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，真的假的哟"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哦，我我刚无意中申请了怎么样，你们那是真的还是假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你说实话，这这是真的呗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哦，是真的还是假的，我也不知道是真的，我就试一下，投一下"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "那是真的假的呀"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "不是，我就是怕是真的是假的，不不知道"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我凭什么能相信你呢"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，这个是不是真的啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "你这个是真的假的东西"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "哎，我我我就问一下，你们这个应该是忽悠人的，还是怎么是真的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "嗯，可能是骗人的吧，这个没那么好的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我怕诈骗哦"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "我不知道你们这个是真的是假的"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这个安不安全啊"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "没有，我有，我怕是骗人的吗"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "不用了，我想问一下，这是真的还是假的呢"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "这个是到底是真的还是假的？我想跟先咨询一下"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "呃，我想问一下你们这个众安保险是不是真的呀"
+    },
+    {
+        "intent": "ask_doubt",
+        "text": "对，我怕是骗人的"
+    },
+    {
+        "intent": "thanks",
+        "text": "谢谢你的告知"
+    },
+    {
+        "intent": "video_call",
+        "text": "电话里有视频"
+    },
+    {
+        "intent": "video_call",
+        "text": "你们发广告还可以视频"
+    },
+    {
+        "intent": "video_call",
+        "text": "咋你打广告出现视频"
+    },
+    {
+        "intent": "video_call",
+        "text": "咋你们打电话发出视频"
+    },
+    {
+        "intent": "video_call",
+        "text": "视频电话"
+    },
+    {
+        "intent": "video_call",
+        "text": "干嘛打电话还可以视频"
+    },
+    {
+        "intent": "video_call",
+        "text": "为什么打广告出现视频"
+    },
+    {
+        "intent": "video_call",
+        "text": "为啥你还有视频"
+    },
+    {
+        "intent": "video_call",
+        "text": "咋你们打广告发出视频"
+    },
+    {
+        "intent": "greeting",
+        "text": "哦，喂"
+    },
+    {
+        "intent": "greeting",
+        "text": "你好"
+    },
+    {
+        "intent": "greeting",
+        "text": "Hello"
+    },
+    {
+        "intent": "greeting",
+        "text": "喂喂喂喂喂喂喂"
+    },
+    {
+        "intent": "why_me",
+        "text": "其他人有吗"
+    },
+    {
+        "intent": "why_me",
+        "text": "干嘛找我"
+    },
+    {
+        "intent": "why_me",
+        "text": "为啥送给我"
+    },
+    {
+        "intent": "why_me",
+        "text": "怎么给我"
+    },
+    {
+        "intent": "why_me",
+        "text": "干嘛给我"
+    },
+    {
+        "intent": "why_me",
+        "text": "为啥我的"
+    },
+    {
+        "intent": "why_me",
+        "text": "别人都有吗"
+    },
+    {
+        "intent": "why_me",
+        "text": "别人也有吗"
+    },
+    {
+        "intent": "can_listen",
+        "text": "可以听到"
+    },
+    {
+        "intent": "can_listen",
+        "text": "听到了，听到了"
+    },
+    {
+        "intent": "can_listen",
+        "text": "听见了"
+    },
+    {
+        "intent": "can_listen",
+        "text": "能听到你说"
+    },
+    {
+        "intent": "can_listen",
+        "text": "能听见"
+    },
+    {
+        "intent": "farewell",
+        "text": "挂断"
+    },
+    {
+        "intent": "farewell",
+        "text": "再见，挂断"
+    },
+    {
+        "intent": "farewell",
+        "text": "嗯，好，再见"
+    },
+    {
+        "intent": "farewell",
+        "text": "挂了吧"
+    },
+    {
+        "intent": "farewell",
+        "text": "嗯，好好好，拜拜"
+    },
+    {
+        "intent": "no_idea",
+        "text": "不晓得"
+    },
+    {
+        "intent": "no_idea",
+        "text": "我搞不来，我的是老年机"
+    },
+    {
+        "intent": "no_idea",
+        "text": "我不懂怎么操作"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "抱歉，我没有听到声音，那我这边先挂机了"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "你肯定有个重要事要告诉我的"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "Please redial later"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "他现在在忙，不方便接电话，请问您是哪位"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "你可以继续和我聊天，我会带你转达的"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "我是李先生的电话秘书"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "与小百通有什么事可以先和我沟通，我来帮您转达"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "提供通讯助理话提服务"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "喂，我还在听着，您请说"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "机主忙，您告诉我可以吗"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "记下了"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "好的，你这边方便再稍微描述具体一些吗"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "有什么可以帮您"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "你找他有什么事呢"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "抱歉，我没有听清，请你继续交代我，稍后我会为你转达给机主的"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "不好意思，我这边听不到您的声音，可能是信号不好，请您稍后再致电，再见"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "您拨打的电话正在通话中"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "正在通话中，之后请留言，留言将正常收取通话费"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "哦，感谢你的接听，你的电脑的专人讲解，请尽快查收。点击什么什么添加微信查看，送350元会员，现场里请于2小时内完成"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "我帮您转达"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "打的电话正在通话"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "好的，稍后我会转达给他的。请问您这边还有其他的事情吗"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "我还没有学会这个问题，已经记录，会尽快学习，为您解答，请尝试询问我其他问题"
+    },
+    {
+        "intent": "voice_assistant",
+        "text": "抱歉，我没有听到你说话"
+    },
+    {
+        "intent": "good_response",
+        "text": "现在这么高级的吗"
+    },
+    {
+        "intent": "good_response",
+        "text": "绝了"
+    },
+    {
+        "intent": "good_response",
+        "text": "好厉害"
+    },
+    {
+        "intent": "good_response",
+        "text": "太强大了"
+    },
+    {
+        "intent": "good_response",
+        "text": "干得漂亮"
+    },
+    {
+        "intent": "ask_time",
+        "text": "活动结束时间"
+    },
+    {
+        "intent": "ask_time",
+        "text": "询问时间"
+    },
+    {
+        "intent": "ask_time",
+        "text": "这个活动是长期的吗"
+    },
+    {
+        "intent": "ask_time",
+        "text": "活动是长期的吗"
+    },
+    {
+        "intent": "ask_time",
+        "text": "截止时间"
+    },
+    {
+        "intent": "ask_time",
+        "text": "优惠活动什么时候过期"
+    },
+    {
+        "intent": "ask_time",
+        "text": "优惠什么时候过期"
+    },
+    {
+        "intent": "ask_time",
+        "text": "优惠活动结束时间"
+    },
+    {
+        "intent": "ask_use",
+        "text": "优惠券可以用吗"
+    },
+    {
+        "intent": "ask_use",
+        "text": "优惠券通用吗"
+    },
+    {
+        "intent": "ask_use",
+        "text": "这个券通用吗"
+    },
+    {
+        "intent": "ask_use",
+        "text": "线上怎么使用"
+    },
+    {
+        "intent": "ask_use",
+        "text": "门店怎么用"
+    },
+    {
+        "intent": "ask_use",
+        "text": "询问怎么用"
+    },
+    {
+        "intent": "ask_use",
+        "text": "线下怎么使用"
+    },
+    {
+        "intent": "bad_event",
+        "text": "活动不给力"
+    },
+    {
+        "intent": "bad_event",
+        "text": "优惠活动不给力"
+    },
+    {
+        "intent": "bad_event",
+        "text": "优惠不给力"
+    },
+    {
+        "intent": "bad_event",
+        "text": "活动力度不够"
+    },
+    {
+        "intent": "bad_event",
+        "text": "优惠活动有大额的吗"
+    },
+    {
+        "intent": "no_wechat",
+        "text": "没有微信"
+    },
+    {
+        "intent": "no_wechat",
+        "text": "不会用企业微信"
+    },
+    {
+        "intent": "no_wechat",
+        "text": "企业微信有用吗"
+    },
+    {
+        "intent": "no_wechat",
+        "text": "企业微信不会用"
+    },
+    {
+        "intent": "cannot_see_video",
+        "text": "怎么不显示"
+    },
+    {
+        "intent": "cannot_see_video",
+        "text": "没共享"
+    },
+    {
+        "intent": "cannot_see_video",
+        "text": "看不见共享"
+    },
+    {
+        "intent": "cannot_see_video",
+        "text": "看不见"
+    },
+    {
+        "intent": "Sick",
+        "text": "正在觉得嗓子疼"
+    },
+    {
+        "intent": "Sick",
+        "text": "我目前觉得好像嗓子疼"
+    },
+    {
+        "intent": "Sick",
+        "text": "前两天感觉非常肚子痛"
+    },
+    {
+        "intent": "Sick",
+        "text": "我目前认为特别难受"
+    },
+    {
+        "intent": "Sick",
+        "text": "正在可能嗓子疼"
+    },
+    {
+        "intent": "Sick",
+        "text": "认为大概牙痛"
+    },
+    {
+        "intent": "Sick",
+        "text": "我前几天觉得可能发烧"
+    },
+    {
+        "intent": "Sick",
+        "text": "正大概肚子痛"
+    },
+    {
+        "intent": "Sick",
+        "text": "我可能嗓子疼"
+    },
+    {
+        "intent": "Sick",
+        "text": "我现在输液"
+    },
+    {
+        "intent": "Sick",
+        "text": "觉得大概肚子痛"
+    },
+    {
+        "intent": "Sick",
+        "text": "前两天觉得发烧"
+    },
+    {
+        "intent": "Sick",
+        "text": "我正在觉得好像骨折"
+    },
+    {
+        "intent": "Sick",
+        "text": "感觉应该感冒"
+    },
+    {
+        "intent": "Sick",
+        "text": "我输液"
+    },
+    {
+        "intent": "Sick",
+        "text": "前几天有点肚子痛"
+    },
+    {
+        "intent": "Sick",
+        "text": "正感觉可能眼花"
+    },
+    {
+        "intent": "Sick",
+        "text": "我正在打针"
+    },
+    {
+        "intent": "Sick",
+        "text": "现在好像眼花"
+    },
+    {
+        "intent": "Sick",
+        "text": "目前觉得十分嗓子疼"
+    }
+]

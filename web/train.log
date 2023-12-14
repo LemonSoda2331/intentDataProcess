@@ -1,0 +1,775 @@
+{'emb_class': 'bert', 'enc_class': 'cls', 'n_ctx': 100, 'dropout': 0.2, 'args': Namespace(adam_epsilon=1e-08, augmented=False, batch_size=8, bert_model_name_or_path='../models/chinese_roberta_L-12_H-256', bert_output_dir='../results/roberta-checkpoint', bert_remove_layers='', bert_revision='main', bert_use_feature_based=False, bert_use_finetune_last=True, config='../configs/config-bert-cls.json', criterion='CrossEntropyLoss', data_dir='../tmp/', device='cpu', diffq_penalty=0.001, embedding_filename='embedding.npy', embedding_trainable=False, enable_diffq=False, enable_qat=False, enable_qat_fx=False, epoch=5, eval_batch_size=16, eval_steps=500, gradient_accumulation_steps=1, hp_search_optuna=False, hp_trials=24, label_filename='label.txt', local_rank=0, log_dir='runs', lr=5e-05, max_grad_norm=0.0, max_grad_value=0.0, max_train_steps=None, measure='loss', num_warmup_steps=None, patience=7, restore_path='', save_after_eval=False, save_path='pytorch-model.pt', seed=42, use_fp16=False, use_isomax=False, warmup_epoch=0, warmup_ratio=0.0, weight_decay=0.01)}
+[model] :
+TextBertCLS(
+  (bert_model): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(21128, 256, padding_idx=0)
+      (position_embeddings): Embedding(512, 256)
+      (token_type_embeddings): Embedding(2, 256)
+      (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=256, out_features=256, bias=True)
+              (key): Linear(in_features=256, out_features=256, bias=True)
+              (value): Linear(in_features=256, out_features=256, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=256, out_features=256, bias=True)
+              (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=256, out_features=1024, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=1024, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=256, out_features=256, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.2, inplace=False)
+  (fc): Linear(in_features=256, out_features=95, bias=True)
+)
+[model prepared]
+(num_update_steps_per_epoch, max_train_steps, num_warmup_steps): (652, 3260, 0)
+***** Running training *****
+  Num examples(batches) per epoch = 652
+  Num Epochs = 5
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 3260
+[model saved] : 3.046104669570923, 0.34382194934765925
+[model saved] : 2.584542989730835, 0.4253645433614735
+{
+    "best_eval_measure": 2.584542989730835,
+    "elapsed_time": 5.872594503561656,
+    "epoch": 0,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.4253645433614735,
+    "local_best_eval_loss": 2.584542989730835,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 3.7779028883740944
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 2.584542989730835
+[model saved] : 2.0644404888153076, 0.5466231772831927
+[model saved] : 1.8130857944488525, 0.6281657712970069
+{
+    "best_eval_measure": 1.8130857944488525,
+    "elapsed_time": 6.631069072087606,
+    "epoch": 1,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6281657712970069,
+    "local_best_eval_loss": 1.8130857944488525,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.4654218123003018
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.8130857944488525
+[model saved] : 1.714095950126648, 0.6427475057559479
+[model saved] : 1.5553920269012451, 0.6774750575594781
+{
+    "best_eval_measure": 1.5553920269012451,
+    "elapsed_time": 6.532312945524851,
+    "epoch": 2,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6774750575594781,
+    "local_best_eval_loss": 1.5553920269012451,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.0068396534656454
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.5553920269012451
+[model saved] : 1.5413366556167603, 0.6847659247889486
+[model saved] : 1.4760643243789673, 0.6905218726016884
+[model saved] : 1.4669994115829468, 0.6922486569455104
+{
+    "best_eval_measure": 1.4669994115829468,
+    "elapsed_time": 8.639589766661325,
+    "epoch": 3,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6922486569455104,
+    "local_best_eval_loss": 1.4669994115829468,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 1.8365295127125605
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.4669994115829468
+[model saved] : 1.4541264772415161, 0.694934765924789
+[model saved] : 1.453534483909607, 0.694359171143515
+{
+    "best_eval_measure": 1.453534483909607,
+    "elapsed_time": 6.943927669525147,
+    "epoch": 4,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.694934765924789,
+    "local_best_eval_loss": 1.453534483909607,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 1.777516847556354
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.453534483909607
+{'emb_class': 'bert', 'enc_class': 'cls', 'n_ctx': 100, 'dropout': 0.2, 'args': Namespace(adam_epsilon=1e-08, augmented=False, batch_size=8, bert_model_name_or_path='../models/chinese_roberta_L-12_H-256', bert_output_dir='../results/roberta-checkpoint', bert_remove_layers='', bert_revision='main', bert_use_feature_based=False, bert_use_finetune_last=True, config='../configs/config-bert-cls.json', criterion='CrossEntropyLoss', data_dir='../train/', device='cpu', diffq_penalty=0.001, embedding_filename='embedding.npy', embedding_trainable=False, enable_diffq=False, enable_qat=False, enable_qat_fx=False, epoch=5, eval_batch_size=16, eval_steps=500, gradient_accumulation_steps=1, hp_search_optuna=False, hp_trials=24, label_filename='label.txt', local_rank=0, log_dir='runs', lr=5e-05, max_grad_norm=0.0, max_grad_value=0.0, max_train_steps=None, measure='loss', num_warmup_steps=None, patience=7, restore_path='', save_after_eval=False, save_path='../train/pytorch-model.pt', seed=42, use_fp16=False, use_isomax=False, warmup_epoch=0, warmup_ratio=0.0, weight_decay=0.01)}
+{'emb_class': 'bert', 'enc_class': 'cls', 'n_ctx': 100, 'dropout': 0.2, 'args': Namespace(adam_epsilon=1e-08, augmented=False, batch_size=8, bert_model_name_or_path='../models/chinese_roberta_L-12_H-256', bert_output_dir='../results/roberta-checkpoint', bert_remove_layers='', bert_revision='main', bert_use_feature_based=False, bert_use_finetune_last=True, config='../configs/config-bert-cls.json', criterion='CrossEntropyLoss', data_dir='../preprocess/', device='cpu', diffq_penalty=0.001, embedding_filename='embedding.npy', embedding_trainable=False, enable_diffq=False, enable_qat=False, enable_qat_fx=False, epoch=5, eval_batch_size=16, eval_steps=500, gradient_accumulation_steps=1, hp_search_optuna=False, hp_trials=24, label_filename='label.txt', local_rank=0, log_dir='runs', lr=5e-05, max_grad_norm=0.0, max_grad_value=0.0, max_train_steps=None, measure='loss', num_warmup_steps=None, patience=7, restore_path='', save_after_eval=False, save_path='../train/pytorch-model.pt', seed=42, use_fp16=False, use_isomax=False, warmup_epoch=0, warmup_ratio=0.0, weight_decay=0.01)}
+[model] :
+TextBertCLS(
+  (bert_model): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(21128, 256, padding_idx=0)
+      (position_embeddings): Embedding(512, 256)
+      (token_type_embeddings): Embedding(2, 256)
+      (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=256, out_features=256, bias=True)
+              (key): Linear(in_features=256, out_features=256, bias=True)
+              (value): Linear(in_features=256, out_features=256, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=256, out_features=256, bias=True)
+              (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=256, out_features=1024, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=1024, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=256, out_features=256, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.2, inplace=False)
+  (fc): Linear(in_features=256, out_features=95, bias=True)
+)
+[model prepared]
+(num_update_steps_per_epoch, max_train_steps, num_warmup_steps): (652, 3260, 0)
+***** Running training *****
+  Num examples(batches) per epoch = 652
+  Num Epochs = 5
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 3260
+[model saved] : 3.046104669570923, 0.34382194934765925
+[model saved] : 2.584542989730835, 0.4253645433614735
+{
+    "best_eval_measure": 2.584542989730835,
+    "elapsed_time": 6.442764262358348,
+    "epoch": 0,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.4253645433614735,
+    "local_best_eval_loss": 2.584542989730835,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 3.7779028883740944
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 2.584542989730835
+[model saved] : 2.0644404888153076, 0.5466231772831927
+[model saved] : 1.8130857944488525, 0.6281657712970069
+{
+    "best_eval_measure": 1.8130857944488525,
+    "elapsed_time": 6.485407114028931,
+    "epoch": 1,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6281657712970069,
+    "local_best_eval_loss": 1.8130857944488525,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.4654218123003018
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.8130857944488525
+[model saved] : 1.714095950126648, 0.6427475057559479
+[model saved] : 1.5553920269012451, 0.6774750575594781
+{
+    "best_eval_measure": 1.5553920269012451,
+    "elapsed_time": 6.3449432015419,
+    "epoch": 2,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6774750575594781,
+    "local_best_eval_loss": 1.5553920269012451,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.0068396534656454
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.5553920269012451
+[model saved] : 1.5413366556167603, 0.6847659247889486
+[model saved] : 1.4760643243789673, 0.6905218726016884
+[model saved] : 1.4669994115829468, 0.6922486569455104
+{
+    "best_eval_measure": 1.4669994115829468,
+    "elapsed_time": 8.254182275136312,
+    "epoch": 3,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6922486569455104,
+    "local_best_eval_loss": 1.4669994115829468,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 1.8365295127125605
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.4669994115829468
+[model saved] : 1.4541264772415161, 0.694934765924789
+[model saved] : 1.453534483909607, 0.694359171143515
+{
+    "best_eval_measure": 1.453534483909607,
+    "elapsed_time": 6.559752841790517,
+    "epoch": 4,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.694934765924789,
+    "local_best_eval_loss": 1.453534483909607,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 1.777516847556354
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.453534483909607
+{'emb_class': 'bert', 'enc_class': 'cls', 'n_ctx': 100, 'dropout': 0.2, 'args': Namespace(adam_epsilon=1e-08, augmented=False, batch_size=8, bert_model_name_or_path='../models/chinese_roberta_L-12_H-256', bert_output_dir='../results/roberta-checkpoint', bert_remove_layers='', bert_revision='main', bert_use_feature_based=False, bert_use_finetune_last=True, config='../configs/config-bert-cls.json', criterion='CrossEntropyLoss', data_dir='../preprocess/', device='cpu', diffq_penalty=0.001, embedding_filename='embedding.npy', embedding_trainable=False, enable_diffq=False, enable_qat=False, enable_qat_fx=False, epoch=5, eval_batch_size=16, eval_steps=500, gradient_accumulation_steps=1, hp_search_optuna=False, hp_trials=24, label_filename='label.txt', local_rank=0, log_dir='runs', lr=5e-05, max_grad_norm=0.0, max_grad_value=0.0, max_train_steps=None, measure='loss', num_warmup_steps=None, patience=7, restore_path='', save_after_eval=False, save_path='../train/123', seed=42, use_fp16=False, use_isomax=False, warmup_epoch=0, warmup_ratio=0.0, weight_decay=0.01)}
+[model] :
+TextBertCLS(
+  (bert_model): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(21128, 256, padding_idx=0)
+      (position_embeddings): Embedding(512, 256)
+      (token_type_embeddings): Embedding(2, 256)
+      (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=256, out_features=256, bias=True)
+              (key): Linear(in_features=256, out_features=256, bias=True)
+              (value): Linear(in_features=256, out_features=256, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=256, out_features=256, bias=True)
+              (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=256, out_features=1024, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=1024, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=256, out_features=256, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.2, inplace=False)
+  (fc): Linear(in_features=256, out_features=95, bias=True)
+)
+[model prepared]
+(num_update_steps_per_epoch, max_train_steps, num_warmup_steps): (652, 3260, 0)
+***** Running training *****
+  Num examples(batches) per epoch = 652
+  Num Epochs = 5
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 3260
+{'emb_class': 'bert', 'enc_class': 'cls', 'n_ctx': 100, 'dropout': 0.2, 'args': Namespace(adam_epsilon=1e-08, augmented=False, batch_size=8, bert_model_name_or_path='../models/chinese_roberta_L-12_H-256', bert_output_dir='../results/roberta-checkpoint', bert_remove_layers='', bert_revision='main', bert_use_feature_based=False, bert_use_finetune_last=True, config='../configs/config-bert-cls.json', criterion='CrossEntropyLoss', data_dir='../preprocess/', device='cpu', diffq_penalty=0.001, embedding_filename='embedding.npy', embedding_trainable=False, enable_diffq=False, enable_qat=False, enable_qat_fx=False, epoch=5, eval_batch_size=16, eval_steps=500, gradient_accumulation_steps=1, hp_search_optuna=False, hp_trials=24, label_filename='label.txt', local_rank=0, log_dir='runs', lr=5e-05, max_grad_norm=0.0, max_grad_value=0.0, max_train_steps=None, measure='loss', num_warmup_steps=None, patience=7, restore_path='', save_after_eval=False, save_path='../train/123', seed=42, use_fp16=False, use_isomax=False, warmup_epoch=0, warmup_ratio=0.0, weight_decay=0.01)}
+[model] :
+TextBertCLS(
+  (bert_model): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(21128, 256, padding_idx=0)
+      (position_embeddings): Embedding(512, 256)
+      (token_type_embeddings): Embedding(2, 256)
+      (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=256, out_features=256, bias=True)
+              (key): Linear(in_features=256, out_features=256, bias=True)
+              (value): Linear(in_features=256, out_features=256, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=256, out_features=256, bias=True)
+              (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=256, out_features=1024, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=1024, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=256, out_features=256, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.2, inplace=False)
+  (fc): Linear(in_features=256, out_features=95, bias=True)
+)
+[model prepared]
+(num_update_steps_per_epoch, max_train_steps, num_warmup_steps): (652, 3260, 0)
+***** Running training *****
+  Num examples(batches) per epoch = 652
+  Num Epochs = 5
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 3260
+[model saved] : 3.046104669570923, 0.34382194934765925
+[model saved] : 2.584542989730835, 0.4253645433614735
+{
+    "best_eval_measure": 2.584542989730835,
+    "elapsed_time": 6.4273587743441265,
+    "epoch": 0,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.4253645433614735,
+    "local_best_eval_loss": 2.584542989730835,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 3.7779028883740944
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 2.584542989730835
+[model saved] : 2.0644404888153076, 0.5466231772831927
+[model saved] : 1.8130857944488525, 0.6281657712970069
+{
+    "best_eval_measure": 1.8130857944488525,
+    "elapsed_time": 6.31197943687439,
+    "epoch": 1,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6281657712970069,
+    "local_best_eval_loss": 1.8130857944488525,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.4654218123003018
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.8130857944488525
+[model saved] : 1.714095950126648, 0.6427475057559479
+[model saved] : 1.5553920269012451, 0.6774750575594781
+{
+    "best_eval_measure": 1.5553920269012451,
+    "elapsed_time": 6.306565642356873,
+    "epoch": 2,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6774750575594781,
+    "local_best_eval_loss": 1.5553920269012451,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.0068396534656454
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.5553920269012451
+[model saved] : 1.5413366556167603, 0.6847659247889486
+[model saved] : 1.4760643243789673, 0.6905218726016884
+[model saved] : 1.4669994115829468, 0.6922486569455104
+{
+    "best_eval_measure": 1.4669994115829468,
+    "elapsed_time": 8.274137902259827,
+    "epoch": 3,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6922486569455104,
+    "local_best_eval_loss": 1.4669994115829468,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 1.8365295127125605
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.4669994115829468
+[model saved] : 1.4541264772415161, 0.694934765924789
+{'emb_class': 'bert', 'enc_class': 'cls', 'n_ctx': 100, 'dropout': 0.2, 'args': Namespace(adam_epsilon=1e-08, augmented=False, batch_size=8, bert_model_name_or_path='../models/chinese_roberta_L-12_H-256', bert_output_dir='../results/roberta-checkpoint', bert_remove_layers='', bert_revision='main', bert_use_feature_based=False, bert_use_finetune_last=True, config='../configs/config-bert-cls.json', criterion='CrossEntropyLoss', data_dir='../preprocess/', device='cpu', diffq_penalty=0.001, embedding_filename='embedding.npy', embedding_trainable=False, enable_diffq=False, enable_qat=False, enable_qat_fx=False, epoch=5, eval_batch_size=16, eval_steps=500, gradient_accumulation_steps=1, hp_search_optuna=False, hp_trials=24, label_filename='label.txt', local_rank=0, log_dir='runs', lr=5e-05, max_grad_norm=0.0, max_grad_value=0.0, max_train_steps=None, measure='loss', num_warmup_steps=None, patience=7, restore_path='', save_after_eval=False, save_path='../train/1232023-12-14-09-40-10.pt', seed=42, use_fp16=False, use_isomax=False, warmup_epoch=0, warmup_ratio=0.0, weight_decay=0.01)}
+[model] :
+TextBertCLS(
+  (bert_model): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(21128, 256, padding_idx=0)
+      (position_embeddings): Embedding(512, 256)
+      (token_type_embeddings): Embedding(2, 256)
+      (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=256, out_features=256, bias=True)
+              (key): Linear(in_features=256, out_features=256, bias=True)
+              (value): Linear(in_features=256, out_features=256, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=256, out_features=256, bias=True)
+              (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=256, out_features=1024, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=1024, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=256, out_features=256, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.2, inplace=False)
+  (fc): Linear(in_features=256, out_features=95, bias=True)
+)
+[model prepared]
+(num_update_steps_per_epoch, max_train_steps, num_warmup_steps): (652, 3260, 0)
+***** Running training *****
+  Num examples(batches) per epoch = 652
+  Num Epochs = 5
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 3260
+[model saved] : 3.046104669570923, 0.34382194934765925
+[model saved] : 2.584542989730835, 0.4253645433614735
+{
+    "best_eval_measure": 2.584542989730835,
+    "elapsed_time": 6.360347286860148,
+    "epoch": 0,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.4253645433614735,
+    "local_best_eval_loss": 2.584542989730835,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 3.7779028883740944
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 2.584542989730835
+[model saved] : 2.0644404888153076, 0.5466231772831927
+{'emb_class': 'bert', 'enc_class': 'cls', 'n_ctx': 100, 'dropout': 0.2, 'args': Namespace(adam_epsilon=1e-08, augmented=False, batch_size=8, bert_model_name_or_path='../models/chinese_roberta_L-12_H-256', bert_output_dir='../results/roberta-checkpoint', bert_remove_layers='', bert_revision='main', bert_use_feature_based=False, bert_use_finetune_last=True, config='../configs/config-bert-cls.json', criterion='CrossEntropyLoss', data_dir='../preprocess/', device='cpu', diffq_penalty=0.001, embedding_filename='embedding.npy', embedding_trainable=False, enable_diffq=False, enable_qat=False, enable_qat_fx=False, epoch=5, eval_batch_size=16, eval_steps=500, gradient_accumulation_steps=1, hp_search_optuna=False, hp_trials=24, label_filename='label.txt', local_rank=0, log_dir='runs', lr=5e-05, max_grad_norm=0.0, max_grad_value=0.0, max_train_steps=None, measure='loss', num_warmup_steps=None, patience=7, restore_path='', save_after_eval=False, save_path='../train/1231-2023-12-14-09-53-57.pt', seed=42, use_fp16=False, use_isomax=False, warmup_epoch=0, warmup_ratio=0.0, weight_decay=0.01)}
+[model] :
+TextBertCLS(
+  (bert_model): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(21128, 256, padding_idx=0)
+      (position_embeddings): Embedding(512, 256)
+      (token_type_embeddings): Embedding(2, 256)
+      (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=256, out_features=256, bias=True)
+              (key): Linear(in_features=256, out_features=256, bias=True)
+              (value): Linear(in_features=256, out_features=256, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=256, out_features=256, bias=True)
+              (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=256, out_features=1024, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=1024, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=256, out_features=256, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.2, inplace=False)
+  (fc): Linear(in_features=256, out_features=95, bias=True)
+)
+[model prepared]
+(num_update_steps_per_epoch, max_train_steps, num_warmup_steps): (652, 3260, 0)
+***** Running training *****
+  Num examples(batches) per epoch = 652
+  Num Epochs = 5
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 3260
+[model saved] : 3.046104669570923, 0.34382194934765925
+[model saved] : 2.584542989730835, 0.4253645433614735
+{
+    "best_eval_measure": 2.584542989730835,
+    "elapsed_time": 6.4518984198570255,
+    "epoch": 0,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.4253645433614735,
+    "local_best_eval_loss": 2.584542989730835,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 3.7779028883740944
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 2.584542989730835
+[model saved] : 2.0644404888153076, 0.5466231772831927
+[model saved] : 1.8130857944488525, 0.6281657712970069
+{
+    "best_eval_measure": 1.8130857944488525,
+    "elapsed_time": 7.044244972864787,
+    "epoch": 1,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6281657712970069,
+    "local_best_eval_loss": 1.8130857944488525,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.4654218123003018
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.8130857944488525
+[model saved] : 1.714095950126648, 0.6427475057559479
+[model saved] : 1.5553920269012451, 0.6774750575594781
+{
+    "best_eval_measure": 1.5553920269012451,
+    "elapsed_time": 7.411916534105937,
+    "epoch": 2,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6774750575594781,
+    "local_best_eval_loss": 1.5553920269012451,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.0068396534656454
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.5553920269012451
+[model saved] : 1.5413366556167603, 0.6847659247889486
+[model saved] : 1.4760643243789673, 0.6905218726016884
+[model saved] : 1.4669994115829468, 0.6922486569455104
+{
+    "best_eval_measure": 1.4669994115829468,
+    "elapsed_time": 8.469145190715789,
+    "epoch": 3,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6922486569455104,
+    "local_best_eval_loss": 1.4669994115829468,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 1.8365295127125605
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.4669994115829468
+[model saved] : 1.4541264772415161, 0.694934765924789
+[model saved] : 1.453534483909607, 0.694359171143515
+{
+    "best_eval_measure": 1.453534483909607,
+    "elapsed_time": 6.007356762886047,
+    "epoch": 4,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.694934765924789,
+    "local_best_eval_loss": 1.453534483909607,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 1.777516847556354
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.453534483909607
+{'emb_class': 'bert', 'enc_class': 'cls', 'n_ctx': 100, 'dropout': 0.2, 'args': Namespace(adam_epsilon=1e-08, augmented=False, batch_size=8, bert_model_name_or_path='../models/chinese_roberta_L-12_H-256', bert_output_dir='../results/roberta-checkpoint', bert_remove_layers='', bert_revision='main', bert_use_feature_based=False, bert_use_finetune_last=True, config='../configs/config-bert-cls.json', criterion='CrossEntropyLoss', data_dir='../preprocess/', device='cpu', diffq_penalty=0.001, embedding_filename='embedding.npy', embedding_trainable=False, enable_diffq=False, enable_qat=False, enable_qat_fx=False, epoch=5, eval_batch_size=16, eval_steps=500, gradient_accumulation_steps=1, hp_search_optuna=False, hp_trials=24, label_filename='label.txt', local_rank=0, log_dir='runs', lr=5e-05, max_grad_norm=0.0, max_grad_value=0.0, max_train_steps=None, measure='loss', num_warmup_steps=None, patience=7, restore_path='', save_after_eval=False, save_path='../models/20231214143442-1231.pt', seed=42, use_fp16=False, use_isomax=False, warmup_epoch=0, warmup_ratio=0.0, weight_decay=0.01)}
+[model] :
+TextBertCLS(
+  (bert_model): BertModel(
+    (embeddings): BertEmbeddings(
+      (word_embeddings): Embedding(21128, 256, padding_idx=0)
+      (position_embeddings): Embedding(512, 256)
+      (token_type_embeddings): Embedding(2, 256)
+      (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+      (dropout): Dropout(p=0.1, inplace=False)
+    )
+    (encoder): BertEncoder(
+      (layer): ModuleList(
+        (0-11): 12 x BertLayer(
+          (attention): BertAttention(
+            (self): BertSelfAttention(
+              (query): Linear(in_features=256, out_features=256, bias=True)
+              (key): Linear(in_features=256, out_features=256, bias=True)
+              (value): Linear(in_features=256, out_features=256, bias=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+            (output): BertSelfOutput(
+              (dense): Linear(in_features=256, out_features=256, bias=True)
+              (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+              (dropout): Dropout(p=0.1, inplace=False)
+            )
+          )
+          (intermediate): BertIntermediate(
+            (dense): Linear(in_features=256, out_features=1024, bias=True)
+            (intermediate_act_fn): GELUActivation()
+          )
+          (output): BertOutput(
+            (dense): Linear(in_features=1024, out_features=256, bias=True)
+            (LayerNorm): LayerNorm((256,), eps=1e-12, elementwise_affine=True)
+            (dropout): Dropout(p=0.1, inplace=False)
+          )
+        )
+      )
+    )
+    (pooler): BertPooler(
+      (dense): Linear(in_features=256, out_features=256, bias=True)
+      (activation): Tanh()
+    )
+  )
+  (dropout): Dropout(p=0.2, inplace=False)
+  (fc): Linear(in_features=256, out_features=95, bias=True)
+)
+[model prepared]
+(num_update_steps_per_epoch, max_train_steps, num_warmup_steps): (652, 3260, 0)
+***** Running training *****
+  Num examples(batches) per epoch = 652
+  Num Epochs = 5
+  Instantaneous batch size per device = 8
+  Total train batch size (w. parallel, distributed & accumulation) = 8
+  Gradient Accumulation steps = 1
+  Total optimization steps = 3260
+[model saved] : 3.046104669570923, 0.34382194934765925
+[model saved] : 2.584542989730835, 0.4253645433614735
+{
+    "best_eval_measure": 2.584542989730835,
+    "elapsed_time": 6.419266529877981,
+    "epoch": 0,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.4253645433614735,
+    "local_best_eval_loss": 2.584542989730835,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 3.7779028883740944
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 2.584542989730835
+[model saved] : 2.0644404888153076, 0.5466231772831927
+[model saved] : 1.8130857944488525, 0.6281657712970069
+{
+    "best_eval_measure": 1.8130857944488525,
+    "elapsed_time": 6.499067529042562,
+    "epoch": 1,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6281657712970069,
+    "local_best_eval_loss": 1.8130857944488525,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.4654218123003018
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.8130857944488525
+[model saved] : 1.714095950126648, 0.6427475057559479
+[model saved] : 1.5553920269012451, 0.6774750575594781
+{
+    "best_eval_measure": 1.5553920269012451,
+    "elapsed_time": 6.740800281365712,
+    "epoch": 2,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6774750575594781,
+    "local_best_eval_loss": 1.5553920269012451,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 2.0068396534656454
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.5553920269012451
+[model saved] : 1.5413366556167603, 0.6847659247889486
+[model saved] : 1.4760643243789673, 0.6905218726016884
+[model saved] : 1.4669994115829468, 0.6922486569455104
+{
+    "best_eval_measure": 1.4669994115829468,
+    "elapsed_time": 8.905440855026246,
+    "epoch": 3,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.6922486569455104,
+    "local_best_eval_loss": 1.4669994115829468,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 1.8365295127125605
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.4669994115829468
+[model saved] : 1.4541264772415161, 0.694934765924789
+[model saved] : 1.453534483909607, 0.694359171143515
+{
+    "best_eval_measure": 1.453534483909607,
+    "elapsed_time": 6.15913413365682,
+    "epoch": 4,
+    "epoch_step": 652,
+    "is_main_process": true,
+    "local_best_eval_acc": 0.694934765924789,
+    "local_best_eval_loss": 1.453534483909607,
+    "local_step": 652,
+    "process_index": 0,
+    "train_loss": 1.777516847556354
+}
+EaryStopping Status[process_index 0]: _steps / patience = 0 / 7, value = 1.453534483909607

@@ -1,0 +1,7 @@
+{
+    "emb_class": "bart",
+    "use_kobart": false,
+    "enc_class": "cls",
+    "n_ctx": 100,
+    "dropout": 0.1
+}
